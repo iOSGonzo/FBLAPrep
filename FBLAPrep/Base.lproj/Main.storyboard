@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xEr-Kb-dMD">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,6 +11,45 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
+        <scene sceneID="eHk-Xf-iac">
+            <objects>
+                <viewController id="xEr-Kb-dMD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oJ6-sY-ucW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="username" textAlignment="center" minimumFontSize="17" background="usernameTextField" translatesAutoresizingMaskIntoConstraints="NO" id="ZKc-Cr-0pG">
+                                <rect key="frame" x="53" y="318" width="268" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="password" textAlignment="center" minimumFontSize="17" background="passwordTextField" translatesAutoresizingMaskIntoConstraints="NO" id="nJX-Ra-Gpq">
+                                <rect key="frame" x="53" y="373" width="268" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m3o-Sw-g9L" userLabel="loginBtn">
+                                <rect key="frame" x="53" y="449" width="268" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="loginBtn"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="czY-Hf-RRy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.79607843137254897" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="P6X-DZ-ZIZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pw9-ww-gvo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="670" y="-730"/>
+        </scene>
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,40 +60,43 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7v-0D-K89">
                                 <rect key="frame" x="20" y="78" width="335" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="competitiveEventsBtn"/>
+                                <state key="normal" backgroundImage="competitiveEventsBtn-1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRy-S3-Y11">
                                 <rect key="frame" x="20" y="153" width="335" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="etiquetteBtn"/>
+                                <state key="normal" backgroundImage="etiquetteBtn-1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfV-PR-jM5">
                                 <rect key="frame" x="20" y="228" width="335" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="nlcKnowledgeBtn"/>
+                                <state key="normal" backgroundImage="nlcKnowledgeBtn-1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qbw-Ne-Bbx">
                                 <rect key="frame" x="20" y="303" width="335" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="parliamentBtn"/>
+                                <state key="normal" backgroundImage="parliamentBtn-1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGU-bB-3g8">
                                 <rect key="frame" x="20" y="378" width="335" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="historyBtn"/>
+                                <state key="normal" backgroundImage="historyBtn-1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAx-4Z-Sl5">
                                 <rect key="frame" x="20" y="453" width="335" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="nationchapterBtn"/>
+                                <state key="normal" backgroundImage="nationchapterBtn-1"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0T-AP-l6j">
                                 <rect key="frame" x="20" y="528" width="335" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="funFactsBtn"/>
+                                <state key="normal" backgroundImage="funFactsBtn-1"/>
+                                <connections>
+                                    <segue destination="xEr-Kb-dMD" kind="show" id="eC3-1Z-7Cz"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.3529411764705882" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.3583991527557373" green="0.78424841165542603" blue="0.98041993379592896" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -63,12 +105,15 @@
         </scene>
     </scenes>
     <resources>
-        <image name="competitiveEventsBtn" width="858" height="170"/>
-        <image name="etiquetteBtn" width="858" height="170"/>
-        <image name="funFactsBtn" width="858" height="170"/>
-        <image name="historyBtn" width="858" height="170"/>
-        <image name="nationchapterBtn" width="858" height="170"/>
-        <image name="nlcKnowledgeBtn" width="858" height="170"/>
-        <image name="parliamentBtn" width="858" height="170"/>
+        <image name="competitiveEventsBtn-1" width="1029" height="204"/>
+        <image name="etiquetteBtn-1" width="1029" height="204"/>
+        <image name="funFactsBtn-1" width="1029" height="204"/>
+        <image name="historyBtn-1" width="1029" height="204"/>
+        <image name="loginBtn" width="690" height="155"/>
+        <image name="nationchapterBtn-1" width="1029" height="204"/>
+        <image name="nlcKnowledgeBtn-1" width="1029" height="204"/>
+        <image name="parliamentBtn-1" width="1029" height="204"/>
+        <image name="passwordTextField" width="670" height="105"/>
+        <image name="usernameTextField" width="670" height="105"/>
     </resources>
 </document>
