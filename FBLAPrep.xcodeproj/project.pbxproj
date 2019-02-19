@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E002E8CA221C441B0004D98B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8C9221C441B0004D98B /* Video.swift */; };
+		E002E8CC221C45C30004D98B /* videoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8CB221C45C30004D98B /* videoViewController.swift */; };
 		E039AC68220179DD008A76BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039AC67220179DD008A76BE /* AppDelegate.swift */; };
 		E039AC6A220179DD008A76BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039AC69220179DD008A76BE /* ViewController.swift */; };
 		E039AC6D220179DD008A76BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E039AC6B220179DD008A76BE /* Main.storyboard */; };
@@ -19,6 +21,7 @@
 		E0A90B8D221B79680079D883 /* ButtonAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A90B8C221B79670079D883 /* ButtonAnimations.swift */; };
 		E0A90B8F221B7E8A0079D883 /* ApplyShadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A90B8E221B7E8A0079D883 /* ApplyShadows.swift */; };
 		E0A90B94221B8E090079D883 /* BigBlackBear.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A90B93221B8E060079D883 /* BigBlackBear.ttf */; };
+		E0A90B98221BEC1A0079D883 /* NewVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A90B97221BEC1A0079D883 /* NewVideoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E002E8C9221C441B0004D98B /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		E002E8CB221C45C30004D98B /* videoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = videoViewController.swift; sourceTree = "<group>"; };
 		E039AC64220179DD008A76BE /* FBLAPrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLAPrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E039AC67220179DD008A76BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E039AC69220179DD008A76BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +62,7 @@
 		E0A90B8C221B79670079D883 /* ButtonAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimations.swift; sourceTree = "<group>"; };
 		E0A90B8E221B7E8A0079D883 /* ApplyShadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyShadows.swift; sourceTree = "<group>"; };
 		E0A90B93221B8E060079D883 /* BigBlackBear.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BigBlackBear.ttf; sourceTree = "<group>"; };
+		E0A90B97221BEC1A0079D883 /* NewVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVideoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,9 @@
 				E039AC6E220179DD008A76BE /* FBLAPrep.xcdatamodeld */,
 				E0A90B8A221B48BC0079D883 /* NewTableViewCell.swift */,
 				E0A90B8C221B79670079D883 /* ButtonAnimations.swift */,
+				E0A90B97221BEC1A0079D883 /* NewVideoCell.swift */,
+				E002E8C9221C441B0004D98B /* Video.swift */,
+				E002E8CB221C45C30004D98B /* videoViewController.swift */,
 			);
 			path = FBLAPrep;
 			sourceTree = "<group>";
@@ -281,9 +290,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0A90B8D221B79680079D883 /* ButtonAnimations.swift in Sources */,
+				E002E8CC221C45C30004D98B /* videoViewController.swift in Sources */,
+				E0A90B98221BEC1A0079D883 /* NewVideoCell.swift in Sources */,
 				E039AC6A220179DD008A76BE /* ViewController.swift in Sources */,
 				E0A90B8F221B7E8A0079D883 /* ApplyShadows.swift in Sources */,
 				E039AC68220179DD008A76BE /* AppDelegate.swift in Sources */,
+				E002E8CA221C441B0004D98B /* Video.swift in Sources */,
 				E0A90B8B221B48BC0079D883 /* NewTableViewCell.swift in Sources */,
 				E039AC70220179DD008A76BE /* FBLAPrep.xcdatamodeld in Sources */,
 			);
