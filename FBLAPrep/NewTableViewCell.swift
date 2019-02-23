@@ -15,8 +15,8 @@ protocol TableViewNew {
 
 class NewTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var competitiveEventButtonLook: UIButton!
-    @IBOutlet weak var tableViewCellLabel: UILabel!
+//    @IBOutlet weak var competitiveEventButtonLook: UIButton!
+//    @IBOutlet weak var tableViewCellLabel: UILabel!
     
     
     var cellDelegate: TableViewNew?
@@ -33,12 +33,9 @@ class NewTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
-    @IBAction func competitiveEventButton(_ sender: UIButton) {
-        sender.pulsate()
-        
-        cellDelegate?.onClickCell(index: (index?.row)!)
-    }
+//    cellDelegate?.onClickCell(index: (index?.row)!)
     
+
 }
 
 

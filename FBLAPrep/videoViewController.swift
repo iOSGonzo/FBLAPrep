@@ -38,6 +38,8 @@ class videoViewController: UIViewController{
         videos.append(video5)
         videos.append(video6)
         videos.append(video7)
+        
+        
     }
     
 }
