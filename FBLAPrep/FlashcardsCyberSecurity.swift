@@ -13,6 +13,8 @@ class FlashcardsCyberSecurity: UIViewController{
     
     @IBOutlet weak var cardIMG: UIButton!
     @IBOutlet weak var progressView: UIProgressView!
+    @IBOutlet weak var nextButton: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +24,9 @@ class FlashcardsCyberSecurity: UIViewController{
         progressView.clipsToBounds = true
         progressView.layer.sublayers![1].cornerRadius = 8
         progressView.subviews[1].clipsToBounds = true
+        
+        let img = UIImage(named: frontImages[currentFlashcard])
+        cardIMG.setImage(img, for: .normal)
     }
     
     
@@ -30,8 +35,8 @@ class FlashcardsCyberSecurity: UIViewController{
     let currentProgress = Progress(totalUnitCount: 10)
     
 //  all flashcard images in array
-    var frontImages = ["flashcardFrontDemo","flashcardFrontDemo2","flashcardFrontDemo3"]
-    var backImages = ["flashcardBackDemo","flashcardBackDemo2","flashcardBackDemo3"]
+    var frontImages = ["FCFrontCyber0","FCFrontCyber1","FCFrontCyber2","FCFrontCyber3","FCFrontCyber4"]
+    var backImages = ["FCBackCyber0","FCBackCyber1","FCBackCyber2","FCBackCyber3","FCBackCyber4"]
     
 //  flipping animation on flashcard tapped
     @IBAction func frontTapped(_ sender: Any){
@@ -49,7 +54,13 @@ class FlashcardsCyberSecurity: UIViewController{
     }
     
     
-    @IBAction func nextFlashcardTapped(_ sender: Any){
+    @IBAction func nextFlashcardTapped(_ sender: UIButton){
+        
+//      nice little spring animation to button, derives from ButtonAnimations.swift
+        sender.pulsate()
+        
+//      sets isFlipped to false, meaning the back side isn't showing when we transition to the next card
+        isFlipped = false
         
 //      when next button is tapped, sets the current flashcard to + 1
         currentFlashcard = currentFlashcard + 1

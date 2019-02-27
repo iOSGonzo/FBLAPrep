@@ -227,6 +227,7 @@
                     <navigationItem key="navigationItem" title="Flashcards" id="cma-Jv-uKU"/>
                     <connections>
                         <outlet property="cardIMG" destination="Tb9-np-vUv" id="0ph-RZ-84d"/>
+                        <outlet property="nextButton" destination="mZv-Aj-8Ve" id="0Pc-NC-8p1"/>
                         <outlet property="progressView" destination="e3L-Wc-ZUY" id="QyO-9f-mAA"/>
                     </connections>
                 </viewController>
