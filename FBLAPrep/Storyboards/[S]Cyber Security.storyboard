@@ -199,12 +199,20 @@
                                     <action selector="frontTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="OU0-fK-vii"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZv-Aj-8Ve">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZv-Aj-8Ve">
                                 <rect key="frame" x="147" y="537" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="nextButtonRed"/>
                                 <connections>
                                     <action selector="nextFlashcardTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="CCh-Nk-LO3"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CZ-kL-2Tp">
+                                <rect key="frame" x="69" y="539" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="exitButton"/>
+                                <connections>
+                                    <segue destination="0rt-SO-y2g" kind="show" id="dKi-jv-wjG"/>
                                 </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e3L-Wc-ZUY" customClass="progressViewStyling" customModule="FBLAPrep" customModuleProvider="target">
@@ -215,6 +223,14 @@
                                 <color key="progressTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="trackTintColor" red="0.082352941176470587" green="0.60784313725490191" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </progressView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHj-Ib-ZVp">
+                                <rect key="frame" x="235" y="539" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="retryButton"/>
+                                <connections>
+                                    <action selector="retryButtonTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="ZY1-bC-Scg"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3583991527557373" green="0.78424841165542603" blue="0.98041993379592896" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -227,8 +243,10 @@
                     <navigationItem key="navigationItem" title="Flashcards" id="cma-Jv-uKU"/>
                     <connections>
                         <outlet property="cardIMG" destination="Tb9-np-vUv" id="0ph-RZ-84d"/>
+                        <outlet property="exitButton" destination="0CZ-kL-2Tp" id="VkV-c1-wb3"/>
                         <outlet property="nextButton" destination="mZv-Aj-8Ve" id="0Pc-NC-8p1"/>
                         <outlet property="progressView" destination="e3L-Wc-ZUY" id="QyO-9f-mAA"/>
+                        <outlet property="retryButton" destination="nHj-Ib-ZVp" id="MPk-pe-NXF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="miD-cq-ee5" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -237,11 +255,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="exitButton" width="268" height="268"/>
         <image name="flashcardFrontDemo" width="1372" height="1612"/>
         <image name="flashcardSelectionBtn-1" width="1029" height="504"/>
         <image name="linkButton" width="117" height="117"/>
         <image name="linkHolderBG" width="852" height="111"/>
         <image name="nextButtonRed" width="156" height="156"/>
+        <image name="retryButton" width="268" height="268"/>
         <image name="videoSelectionBtn-1" width="1029" height="504"/>
         <image name="websiteSelectionBtn-1" width="1029" height="504"/>
     </resources>
