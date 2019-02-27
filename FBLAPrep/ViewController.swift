@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     
     @IBAction func competitiveEventsClicked(_ sender: UIButton) {
         
-        
     }
     
     //-----//
@@ -93,9 +92,4 @@ extension ViewController: TableViewNew{
     func onClickCell(index: Int) {
         print("\(competitiveEvents[index]) is clicked")
     }
-    
 }
-
-
-
-

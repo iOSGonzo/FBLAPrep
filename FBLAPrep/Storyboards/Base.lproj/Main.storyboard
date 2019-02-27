@@ -153,163 +153,20 @@
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="fIr-6x-uSV" id="oD7-XU-nux"/>
-                        <segue destination="Bx8-Kb-acF" kind="show" identifier="Accounting I" id="6kD-ib-yWA"/>
-                        <segue destination="qXF-UV-8T1" kind="show" identifier="Accounting II" id="P1w-Ln-bv6"/>
-                        <segue destination="BB9-De-OHp" kind="show" identifier="Cyber Security" id="eL7-Y8-eq5"/>
+                        <segue destination="OdS-pp-mck" kind="show" identifier="Cyber Security" id="6Sn-1N-Esy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tkg-49-802" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3767.1999999999998" y="-51.724137931034484"/>
         </scene>
-        <!--Select Resource-->
-        <scene sceneID="BoE-O4-uIw">
+        <!--[S]Cyber Security-->
+        <scene sceneID="0BW-Ct-0tR">
             <objects>
-                <viewController storyboardIdentifier="ChooseTypeViewController" id="BB9-De-OHp" customClass="ViewController" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="qwH-al-BWV">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNO-6k-XCQ">
-                                <rect key="frame" x="20" y="97" width="335" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="videoSelectionBtn-1"/>
-                                <connections>
-                                    <segue destination="7e7-Th-RfA" kind="show" id="ftQ-ut-q3g"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fw-W2-Jv2">
-                                <rect key="frame" x="20" y="265" width="335" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="websiteSelectionBtn-1"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="duD-K5-vWH">
-                                <rect key="frame" x="20" y="433" width="335" height="160"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="flashcardSelectionBtn-1"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" red="0.3583991527557373" green="0.78424841165542603" blue="0.98041993379592896" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="eK1-26-Zza"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Select Resource" id="mic-uX-BIu">
-                        <barButtonItem key="backBarButtonItem" title=" " id="Lcb-15-XaU"/>
-                    </navigationItem>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7la-4O-DU4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="[S]Cyber Security" id="OdS-pp-mck" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m5f-eA-lit" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4684" y="-52"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="rkH-zT-Px4">
-            <objects>
-                <viewController id="qXF-UV-8T1" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="S9B-IL-MNS">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="gy0-3R-RVD"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z7z-pq-t5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4172" y="743"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="u1n-sl-qJG">
-            <objects>
-                <viewController id="Bx8-Kb-acF" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="U6s-DF-8xg">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="woB-5D-Fqx"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="97i-Q1-PSz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3434" y="743"/>
-        </scene>
-        <!--Video Resources-->
-        <scene sceneID="OM0-wx-t2r">
-            <objects>
-                <viewController id="7e7-Th-RfA" customClass="videoViewController" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="TOW-AN-zJj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ADB-8a-XRn">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                                <color key="backgroundColor" red="0.35686274509999999" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VideoCell" id="dkB-7j-uXT" customClass="NewVideoCell" customModule="FBLAPrep" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="120"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="dkB-7j-uXT" id="3L8-Ef-vL9">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="119.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="okC-tT-ZbI">
-                                                    <rect key="frame" x="15" y="15" width="160" height="90"/>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vkZ-Ec-sip">
-                                                    <rect key="frame" x="183" y="16" width="177" height="24"/>
-                                                    <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0mi-dK-fsO">
-                                                    <rect key="frame" x="222" y="59" width="99" height="30"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <color key="backgroundColor" red="0.1960784314" green="0.54117647059999996" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <state key="normal" title="Watch Now">
-                                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </state>
-                                                    <connections>
-                                                        <action selector="watchNowTapped:" destination="dkB-7j-uXT" eventType="touchUpInside" id="B2c-za-ufh"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="okC-tT-ZbI" firstAttribute="leading" secondItem="3L8-Ef-vL9" secondAttribute="leadingMargin" id="LDb-aG-Yqb"/>
-                                                <constraint firstItem="vkZ-Ec-sip" firstAttribute="top" secondItem="3L8-Ef-vL9" secondAttribute="topMargin" constant="5" id="Tiw-Uq-gdb"/>
-                                                <constraint firstItem="okC-tT-ZbI" firstAttribute="top" secondItem="3L8-Ef-vL9" secondAttribute="topMargin" constant="4" id="YYw-1x-NPr"/>
-                                                <constraint firstItem="vkZ-Ec-sip" firstAttribute="leading" secondItem="okC-tT-ZbI" secondAttribute="trailing" constant="8" id="gWO-U1-EiM"/>
-                                                <constraint firstItem="vkZ-Ec-sip" firstAttribute="trailing" secondItem="3L8-Ef-vL9" secondAttribute="trailingMargin" id="mqu-ta-BlW"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="okC-tT-ZbI" secondAttribute="bottom" constant="4" id="nZn-Vf-AgK"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="okC-tT-ZbI" secondAttribute="trailing" constant="185" id="pdS-IJ-SRz"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="vkZ-Ec-sip" secondAttribute="bottom" constant="69" id="phQ-qz-sou"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="videoThumbnail" destination="okC-tT-ZbI" id="gQz-oR-rkb"/>
-                                            <outlet property="videoTitle" destination="vkZ-Ec-sip" id="lSe-5T-Wgn"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                                <connections>
-                                    <outlet property="dataSource" destination="7e7-Th-RfA" id="Hgk-wi-1jb"/>
-                                    <outlet property="delegate" destination="7e7-Th-RfA" id="4V2-CM-Rjq"/>
-                                </connections>
-                            </tableView>
-                        </subviews>
-                        <color key="backgroundColor" red="0.35686274509999999" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <constraints>
-                            <constraint firstItem="ADB-8a-XRn" firstAttribute="leading" secondItem="dQ1-yL-4ph" secondAttribute="leading" id="2R9-Bv-hKg"/>
-                            <constraint firstItem="ADB-8a-XRn" firstAttribute="trailing" secondItem="dQ1-yL-4ph" secondAttribute="trailing" id="X6y-q9-kqk"/>
-                            <constraint firstItem="ADB-8a-XRn" firstAttribute="top" secondItem="dQ1-yL-4ph" secondAttribute="top" id="gOH-or-iTL"/>
-                            <constraint firstItem="ADB-8a-XRn" firstAttribute="bottom" secondItem="dQ1-yL-4ph" secondAttribute="bottom" id="ouO-uD-tWv"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="dQ1-yL-4ph"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Video Resources" id="ODi-4X-qMb"/>
-                    <connections>
-                        <outlet property="videoTableView" destination="ADB-8a-XRn" id="4fv-6J-MJj"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="21g-Q1-f6D" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5477.6000000000004" y="-53.523238380809602"/>
+            <point key="canvasLocation" x="4364" y="-368"/>
         </scene>
         <!--Test-->
         <scene sceneID="TzN-A0-sRR">
@@ -368,7 +225,6 @@
     <resources>
         <image name="competitiveEventsBtn-1" width="1029" height="204"/>
         <image name="etiquetteBtn-1" width="1029" height="204"/>
-        <image name="flashcardSelectionBtn-1" width="1029" height="504"/>
         <image name="funFactsBtn-1" width="1029" height="204"/>
         <image name="historyBtn-1" width="1029" height="204"/>
         <image name="loginBtn" width="690" height="155"/>
@@ -377,7 +233,5 @@
         <image name="parliamentBtn-1" width="1029" height="204"/>
         <image name="passwordTextField" width="670" height="105"/>
         <image name="usernameTextField" width="670" height="105"/>
-        <image name="videoSelectionBtn-1" width="1029" height="504"/>
-        <image name="websiteSelectionBtn-1" width="1029" height="504"/>
     </resources>
 </document>
