@@ -199,18 +199,40 @@
                                     <action selector="frontTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="OU0-fK-vii"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZv-Aj-8Ve">
+                                <rect key="frame" x="147" y="537" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="nextButtonRed"/>
+                                <connections>
+                                    <action selector="nextFlashcardTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="CCh-Nk-LO3"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e3L-Wc-ZUY" customClass="progressViewStyling" customModule="FBLAPrep" customModuleProvider="target">
+                                <rect key="frame" x="25" y="60" width="325" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="6cS-VM-gWN"/>
+                                </constraints>
+                                <color key="progressTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" red="0.082352941176470587" green="0.60784313725490191" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
                         </subviews>
                         <color key="backgroundColor" red="0.3583991527557373" green="0.78424841165542603" blue="0.98041993379592896" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="e3L-Wc-ZUY" firstAttribute="leading" secondItem="fF1-Bx-uNp" secondAttribute="leading" constant="25" id="68a-by-W2p"/>
+                            <constraint firstItem="fF1-Bx-uNp" firstAttribute="trailing" secondItem="e3L-Wc-ZUY" secondAttribute="trailing" constant="25" id="Ya3-6t-fbd"/>
+                            <constraint firstItem="e3L-Wc-ZUY" firstAttribute="top" secondItem="fF1-Bx-uNp" secondAttribute="top" constant="40" id="cDc-vU-8H6"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="fF1-Bx-uNp"/>
                     </view>
                     <navigationItem key="navigationItem" title="Flashcards" id="cma-Jv-uKU"/>
                     <connections>
                         <outlet property="cardIMG" destination="Tb9-np-vUv" id="0ph-RZ-84d"/>
+                        <outlet property="progressView" destination="e3L-Wc-ZUY" id="QyO-9f-mAA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="miD-cq-ee5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4481" y="510"/>
+            <point key="canvasLocation" x="4480.8000000000002" y="509.59520239880067"/>
         </scene>
     </scenes>
     <resources>
@@ -218,6 +240,7 @@
         <image name="flashcardSelectionBtn-1" width="1029" height="504"/>
         <image name="linkButton" width="117" height="117"/>
         <image name="linkHolderBG" width="852" height="111"/>
+        <image name="nextButtonRed" width="156" height="156"/>
         <image name="videoSelectionBtn-1" width="1029" height="504"/>
         <image name="websiteSelectionBtn-1" width="1029" height="504"/>
     </resources>
