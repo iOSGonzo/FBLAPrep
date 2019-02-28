@@ -15,10 +15,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Select Resource-->
+        <!--Study Resources-->
         <scene sceneID="NQJ-Ij-sTV">
             <objects>
-                <viewController storyboardIdentifier="ChooseTypeViewController" id="0rt-SO-y2g" customClass="ViewController" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChooseTypeViewController" title="Study Resources" id="0rt-SO-y2g" customClass="ViewController" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16W-g0-DCb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,9 +51,8 @@
                         <color key="backgroundColor" red="0.35839915280000001" green="0.78424841170000004" blue="0.98041993380000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="Cq8-o1-OuV"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Select Resource" id="27h-he-K6S">
-                        <barButtonItem key="backBarButtonItem" title=" " id="l9T-30-Gsy"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Study Resources" largeTitleDisplayMode="never" id="Knf-fT-Qv5"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NHr-S1-rtD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -63,13 +62,13 @@
         <!--Video Resources-->
         <scene sceneID="fnr-au-pXi">
             <objects>
-                <viewController id="KwX-Xm-QH9" customClass="videoViewController" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KwX-Xm-QH9" customClass="VideosCyberSecurity" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UvL-5P-wPS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2OV-iP-LPk">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <color key="backgroundColor" red="0.35686274509999999" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VideoCell" id="Hld-a3-vye" customClass="NewVideoCell" customModule="FBLAPrep" customModuleProvider="target">
@@ -135,7 +134,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ZNA-go-fyE"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Video Resources" id="eon-fa-3GT"/>
+                    <navigationItem key="navigationItem" title="Video Resources" largeTitleDisplayMode="always" id="eon-fa-3GT"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="videoTableView" destination="2OV-iP-LPk" id="LMR-oJ-Cca"/>
@@ -177,13 +176,13 @@
                         <color key="backgroundColor" red="0.35839915280000001" green="0.78424841170000004" blue="0.98041993380000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="tbL-R0-rnn"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Website Resources" id="42n-S3-0y3"/>
+                    <navigationItem key="navigationItem" title="Website Resources" largeTitleDisplayMode="always" id="42n-S3-0y3"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i1m-DR-5V9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5350" y="-215"/>
         </scene>
-        <!--Flashcards-->
+        <!--Cyber Security-->
         <scene sceneID="kfR-tm-9QO">
             <objects>
                 <viewController id="cFg-by-4QR" customClass="FlashcardsCyberSecurity" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
@@ -191,40 +190,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tb9-np-vUv">
-                                <rect key="frame" x="20" y="136" width="335" height="395"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flashcardFrontDemo"/>
-                                <connections>
-                                    <action selector="frontTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="OU0-fK-vii"/>
-                                </connections>
-                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e3L-Wc-ZUY" customClass="progressViewStyling" customModule="FBLAPrep" customModuleProvider="target">
+                                <rect key="frame" x="25" y="72" width="325" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="6cS-VM-gWN"/>
+                                </constraints>
+                                <color key="progressTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" red="0.082352941176470587" green="0.60784313725490191" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
                             <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZv-Aj-8Ve">
-                                <rect key="frame" x="147" y="537" width="80" height="80"/>
+                                <rect key="frame" x="147" y="538" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="nextButtonRed"/>
                                 <connections>
                                     <action selector="nextFlashcardTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="CCh-Nk-LO3"/>
                                 </connections>
                             </button>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e3L-Wc-ZUY" customClass="progressViewStyling" customModule="FBLAPrep" customModuleProvider="target">
-                                <rect key="frame" x="25" y="60" width="325" height="16"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="16" id="6cS-VM-gWN"/>
-                                </constraints>
-                                <color key="progressTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="trackTintColor" red="0.082352941176470587" green="0.60784313725490191" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </progressView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHj-Ib-ZVp">
-                                <rect key="frame" x="152" y="539" width="70" height="70"/>
+                                <rect key="frame" x="152" y="540" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="retryButton"/>
                                 <connections>
                                     <action selector="retryButtonTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="ZY1-bC-Scg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tb9-np-vUv">
+                                <rect key="frame" x="20" y="143" width="335" height="395"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flashcardFrontDemo"/>
+                                <connections>
+                                    <action selector="frontTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="OU0-fK-vii"/>
+                                </connections>
+                            </button>
                             <visualEffectView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EjY-Ia-gOH">
-                                <rect key="frame" x="31" y="237" width="313" height="192"/>
+                                <rect key="frame" x="31" y="244" width="313" height="192"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="Hgr-8g-ktY">
                                     <rect key="frame" x="0.0" y="0.0" width="313" height="192"/>
@@ -253,12 +252,12 @@
                         <constraints>
                             <constraint firstItem="e3L-Wc-ZUY" firstAttribute="leading" secondItem="fF1-Bx-uNp" secondAttribute="leading" constant="25" id="68a-by-W2p"/>
                             <constraint firstItem="fF1-Bx-uNp" firstAttribute="trailing" secondItem="e3L-Wc-ZUY" secondAttribute="trailing" constant="25" id="Ya3-6t-fbd"/>
-                            <constraint firstItem="e3L-Wc-ZUY" firstAttribute="top" secondItem="fF1-Bx-uNp" secondAttribute="top" constant="40" id="cDc-vU-8H6"/>
+                            <constraint firstItem="e3L-Wc-ZUY" firstAttribute="top" secondItem="fF1-Bx-uNp" secondAttribute="top" constant="8" id="cDc-vU-8H6"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fF1-Bx-uNp"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Flashcards" id="cma-Jv-uKU"/>
-                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationItem key="navigationItem" title="Cyber Security" largeTitleDisplayMode="always" id="rRs-Q6-CJD"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="cardIMG" destination="Tb9-np-vUv" id="0ph-RZ-84d"/>
                         <outlet property="disclaimerWindow" destination="EjY-Ia-gOH" id="QLd-js-5Vh"/>

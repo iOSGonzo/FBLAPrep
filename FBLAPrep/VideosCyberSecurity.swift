@@ -10,15 +10,19 @@ import Foundation
 import UIKit
 import SafariServices
 
-class videoViewController: UIViewController{
+class VideosCyberSecurity: UIViewController{
     
     @IBOutlet weak var videoTableView: UITableView!
+  
     
     var videos: [Video] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         createVideoArray()
+        
+        
+
     }
     
     
@@ -44,7 +48,7 @@ class videoViewController: UIViewController{
     
 }
 
-extension videoViewController: videoCellDelegate {
+extension VideosCyberSecurity: videoCellDelegate {
     func didTapWatchNow(url: String) {
         let videoURL = URL(string: url)!
         let safariVC = SFSafariViewController(url: videoURL)
@@ -53,7 +57,7 @@ extension videoViewController: videoCellDelegate {
 }
 
 
-extension videoViewController: UITableViewDelegate, UITableViewDataSource{
+extension VideosCyberSecurity: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return videos.count

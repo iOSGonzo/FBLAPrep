@@ -2,7 +2,7 @@
 //  FlashcardsCyberSecurity.swift
 //  FBLAPrep
 //
-//  Created by Gonzalo Birrueta on 2/26/19.
+//  Created by Gonzalo Birrueta on 2/10/19.
 //  Copyright © 2019 Gonzalo Birrueta. All rights reserved.
 //
 
@@ -21,7 +21,7 @@ class FlashcardsCyberSecurity: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//      animate disclaimer onto view
+//      animate disclaimer onto flashcard view
         disclaimerWindow.transform = CGAffineTransform(scaleX: 0.3, y: 2)
         UIView.animate(withDuration: 0.65, delay: 0.1, usingSpringWithDamping: 0.25, initialSpringVelocity: 0, options: .allowUserInteraction, animations: {
             self.disclaimerWindow.transform = .identity
@@ -30,9 +30,9 @@ class FlashcardsCyberSecurity: UIViewController{
         }
         
 //      Styling for progress bar
-        progressView.layer.cornerRadius = 8
+        progressView.layer.cornerRadius = 7
         progressView.clipsToBounds = true
-        progressView.layer.sublayers![1].cornerRadius = 8
+        progressView.layer.sublayers![1].cornerRadius = 7
         progressView.subviews[1].clipsToBounds = true
         
         
