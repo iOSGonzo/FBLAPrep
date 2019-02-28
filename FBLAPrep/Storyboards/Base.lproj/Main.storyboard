@@ -173,15 +173,20 @@
             </objects>
             <point key="canvasLocation" x="4364" y="-368"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Animated Tab Bar-->
         <scene sceneID="Jup-XO-OWc">
             <objects>
-                <tabBarController id="8pg-E3-cgj" sceneMemberID="viewController">
+                <tabBarController id="8pg-E3-cgj" customClass="AnimatedTabBar" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="MO8-Tb-UND">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="selectedIndex">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <segue destination="TTx-ek-2lB" kind="relationship" relationship="viewControllers" id="WjH-SR-G8Z"/>
                         <segue destination="gMz-20-K5U" kind="relationship" relationship="viewControllers" id="aWD-jt-TTP"/>
@@ -192,12 +197,12 @@
             </objects>
             <point key="canvasLocation" x="782" y="251"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Study-->
         <scene sceneID="6jV-bM-jAG">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="TTx-ek-2lB" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="book" id="hGJ-CS-HqI">
-                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    <tabBarItem key="tabBarItem" title="Study" image="book" id="hGJ-CS-HqI">
+                        <inset key="imageInsets" minX="0.0" minY="3" maxX="0.0" maxY="-3"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0va-ee-Ofa">
@@ -272,12 +277,12 @@
             </objects>
             <point key="canvasLocation" x="2806" y="743"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Stats-->
         <scene sceneID="YH7-8j-3Ym">
             <objects>
                 <navigationController id="jfv-bi-gWQ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="stats" id="EbJ-Jd-yKF">
-                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    <tabBarItem key="tabBarItem" tag="2" title="Stats" image="stats" id="EbJ-Jd-yKF">
+                        <inset key="imageInsets" minX="0.0" minY="3" maxX="0.0" maxY="-3"/>
                     </tabBarItem>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="iiM-jH-7HG">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
@@ -390,8 +395,18 @@
                         <viewLayoutGuide key="safeArea" id="Sy1-bH-mry"/>
                     </view>
                     <navigationItem key="navigationItem" title="Statistics" largeTitleDisplayMode="always" id="Hud-9X-iOo">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="UAC-Kl-vTp" userLabel="about">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OiP-1o-Mwj">
+                                <rect key="frame" x="16" y="0.0" width="72" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="about"/>
+                                <connections>
+                                    <segue destination="wBe-qZ-t3l" kind="show" id="7vK-nz-wz0"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Settings" image="settings" style="plain" id="dEX-EH-vqR">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SFG-zm-hPC">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="SFG-zm-hPC">
                                 <rect key="frame" x="262" y="7" width="97" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="settings"/>
@@ -422,26 +437,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="WmE-Fp-Fb2"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Settings" id="Slf-ae-HrK">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="UAC-Kl-vTp" userLabel="about">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="trailing" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OiP-1o-Mwj">
-                                <rect key="frame" x="287" y="0.0" width="72" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="about"/>
-                            </button>
-                        </barButtonItem>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Settings" id="Slf-ae-HrK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mH2-b4-4ci" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3752" y="1473"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Tests-->
         <scene sceneID="Hid-Op-X3L">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gMz-20-K5U" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="test" id="Xew-rg-iGg">
-                        <inset key="imageInsets" minX="0.0" minY="6" maxX="0.0" maxY="-6"/>
+                    <tabBarItem key="tabBarItem" tag="1" title="Tests" image="test" id="Xew-rg-iGg">
+                        <inset key="imageInsets" minX="0.0" minY="3" maxX="0.0" maxY="-3"/>
                     </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ff4-KY-JSY">
@@ -507,6 +514,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrG-SG-dJM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3766" y="743"/>
+        </scene>
+        <!--About-->
+        <scene sceneID="P3E-OH-DwR">
+            <objects>
+                <viewController id="wBe-qZ-t3l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xca-SJ-fxJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="K8I-u3-U0C"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="About" largeTitleDisplayMode="never" id="Wac-pj-ecG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7qR-da-ws5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2807" y="2223"/>
         </scene>
     </scenes>
     <resources>

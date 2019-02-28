@@ -28,6 +28,7 @@
 		E0A90B94221B8E090079D883 /* BigBlackBear.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A90B93221B8E060079D883 /* BigBlackBear.ttf */; };
 		E0A90B98221BEC1A0079D883 /* NewVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A90B97221BEC1A0079D883 /* NewVideoCell.swift */; };
 		E0D4D6D22227BD1100B8EA3F /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D6D12227BD1100B8EA3F /* StatisticsViewController.swift */; };
+		E0D4D6D4222862BC00B8EA3F /* AnimatedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D6D3222862BC00B8EA3F /* AnimatedTabBar.swift */; };
 		EE7CB47AC6170574C38C4087 /* Pods_FBLAPrepTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBE60D6CBEA20AE77D0DDA5 /* Pods_FBLAPrepTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +82,7 @@
 		E0A90B93221B8E060079D883 /* BigBlackBear.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BigBlackBear.ttf; sourceTree = "<group>"; };
 		E0A90B97221BEC1A0079D883 /* NewVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVideoCell.swift; sourceTree = "<group>"; };
 		E0D4D6D12227BD1100B8EA3F /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		E0D4D6D3222862BC00B8EA3F /* AnimatedTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBar.swift; sourceTree = "<group>"; };
 		E2B837424E8D94BA348A8F03 /* Pods-FBLAPrepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLAPrepTests.release.xcconfig"; path = "Target Support Files/Pods-FBLAPrepTests/Pods-FBLAPrepTests.release.xcconfig"; sourceTree = "<group>"; };
 		FE4AADE109AE977EF6C9CA06 /* Pods-FBLAPrep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLAPrep.debug.xcconfig"; path = "Target Support Files/Pods-FBLAPrep/Pods-FBLAPrep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +176,7 @@
 				E002E8D022262FB90004D98B /* WebsitesCyberSecurity.swift */,
 				E002E8D2222651A50004D98B /* FlashcardsCyberSecurity.swift */,
 				E0D4D6D12227BD1100B8EA3F /* StatisticsViewController.swift */,
+				E0D4D6D3222862BC00B8EA3F /* AnimatedTabBar.swift */,
 			);
 			path = FBLAPrep;
 			sourceTree = "<group>";
@@ -446,6 +449,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0A90B8D221B79680079D883 /* ButtonAnimations.swift in Sources */,
+				E0D4D6D4222862BC00B8EA3F /* AnimatedTabBar.swift in Sources */,
 				E002E8CC221C45C30004D98B /* VideosCyberSecurity.swift in Sources */,
 				E0A90B98221BEC1A0079D883 /* NewVideoCell.swift in Sources */,
 				E0D4D6D22227BD1100B8EA3F /* StatisticsViewController.swift in Sources */,
