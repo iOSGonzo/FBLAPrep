@@ -16,13 +16,13 @@ class FlashcardsCyberSecurity: UIViewController{
     @IBOutlet weak var cardIMG: UIButton!
     @IBOutlet weak var progressView: UIProgressView!
     @IBOutlet weak var nextButton: UIButton!
-    @IBOutlet weak var exitButton: UIButton!
     @IBOutlet weak var retryButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        disclaimerWindow.transform = CGAffineTransform(scaleX: 0.3, y: 2)
         
+//      animate disclaimer onto view
+        disclaimerWindow.transform = CGAffineTransform(scaleX: 0.3, y: 2)
         UIView.animate(withDuration: 0.65, delay: 0.1, usingSpringWithDamping: 0.25, initialSpringVelocity: 0, options: .allowUserInteraction, animations: {
             self.disclaimerWindow.transform = .identity
         }) { (success) in
@@ -35,13 +35,19 @@ class FlashcardsCyberSecurity: UIViewController{
         progressView.layer.sublayers![1].cornerRadius = 8
         progressView.subviews[1].clipsToBounds = true
         
+        
+//      set flashcard face to currentFlashcard (first card) on viewDidLoad()
         let img = UIImage(named: frontImages[currentFlashcard])
         cardIMG.setImage(img, for: .normal)
     }
     
-    
+//  isFlipped stores whether the current card is flipped or not
     var isFlipped = false
+    
+//  currentFlashcard stores the index of the current flashcard
     var currentFlashcard = 0
+    
+//  currentProgress stores the amount of parts the progress bar is split into, as well as the current progress the bar is at
     let currentProgress = Progress(totalUnitCount: 10)
     
 //  all flashcard images in array
@@ -67,8 +73,7 @@ class FlashcardsCyberSecurity: UIViewController{
     @IBAction func nextFlashcardTapped(_ sender: UIButton){
         if currentFlashcard < 9{
             
-            
-            //      nice little spring animation to button, derives from ButtonAnimations.swift
+            //button spring animation, derives from ButtonAnimations.swift
             sender.pulsate()
             
             //      sets isFlipped to false, meaning the back side isn't showing when we transition to the next card
@@ -106,6 +111,7 @@ class FlashcardsCyberSecurity: UIViewController{
             
             nextButton.isHidden = true
             retryButton.isHidden = false
+            cardIMG.isUserInteractionEnabled = false
             
         }
 
@@ -113,6 +119,7 @@ class FlashcardsCyberSecurity: UIViewController{
     }
     
     @IBAction func retryButtonTapped(_ sender: UIButton){
+        cardIMG.isUserInteractionEnabled = true
         retryButton.isHidden = true
         nextButton.isHidden = false
         isFlipped = false
@@ -141,7 +148,6 @@ class FlashcardsCyberSecurity: UIViewController{
                             self.disclaimerWindow.transform = CGAffineTransform(scaleX: 0, y: 0)
         }
         })
-        
         
         
     }

@@ -49,7 +49,7 @@
             </objects>
             <point key="canvasLocation" x="604" y="-731"/>
         </scene>
-        <!--Select Category-->
+        <!--Select Study Category-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
@@ -100,7 +100,7 @@
                         <color key="backgroundColor" red="0.3583991527557373" green="0.78424841165542603" blue="0.98041993379592896" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Select Category" id="ksm-te-9vi">
+                    <navigationItem key="navigationItem" title="Select Study Category" id="ksm-te-9vi">
                         <barButtonItem key="backBarButtonItem" title=" " id="daO-OX-o2f"/>
                     </navigationItem>
                 </viewController>
