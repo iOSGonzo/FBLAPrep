@@ -191,7 +191,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tb9-np-vUv">
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tb9-np-vUv">
                                 <rect key="frame" x="20" y="136" width="335" height="395"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flashcardFrontDemo"/>
@@ -199,20 +199,12 @@
                                     <action selector="frontTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="OU0-fK-vii"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZv-Aj-8Ve">
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mZv-Aj-8Ve">
                                 <rect key="frame" x="147" y="537" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="nextButtonRed"/>
                                 <connections>
                                     <action selector="nextFlashcardTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="CCh-Nk-LO3"/>
-                                </connections>
-                            </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CZ-kL-2Tp">
-                                <rect key="frame" x="69" y="539" width="70" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="exitButton"/>
-                                <connections>
-                                    <segue destination="0rt-SO-y2g" kind="show" id="dKi-jv-wjG"/>
                                 </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e3L-Wc-ZUY" customClass="progressViewStyling" customModule="FBLAPrep" customModuleProvider="target">
@@ -224,13 +216,38 @@
                                 <color key="trackTintColor" red="0.082352941176470587" green="0.60784313725490191" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </progressView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHj-Ib-ZVp">
-                                <rect key="frame" x="235" y="539" width="70" height="70"/>
+                                <rect key="frame" x="152" y="539" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="retryButton"/>
                                 <connections>
                                     <action selector="retryButtonTapped:" destination="cFg-by-4QR" eventType="touchUpInside" id="ZY1-bC-Scg"/>
                                 </connections>
                             </button>
+                            <visualEffectView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EjY-Ia-gOH">
+                                <rect key="frame" x="31" y="237" width="313" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="Hgr-8g-ktY">
+                                    <rect key="frame" x="0.0" y="0.0" width="313" height="192"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="disclaimerBG" translatesAutoresizingMaskIntoConstraints="NO" id="vyb-tf-2vF">
+                                            <rect key="frame" x="0.0" y="0.0" width="313" height="192"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EnW-yN-KsD">
+                                            <rect key="frame" x="29" y="140" width="256" height="35"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="disclaimerButton"/>
+                                            <connections>
+                                                <action selector="iUnderstand:" destination="cFg-by-4QR" eventType="touchUpInside" id="81Y-ql-pBT"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
                         </subviews>
                         <color key="backgroundColor" red="0.3583991527557373" green="0.78424841165542603" blue="0.98041993379592896" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -241,9 +258,10 @@
                         <viewLayoutGuide key="safeArea" id="fF1-Bx-uNp"/>
                     </view>
                     <navigationItem key="navigationItem" title="Flashcards" id="cma-Jv-uKU"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="cardIMG" destination="Tb9-np-vUv" id="0ph-RZ-84d"/>
-                        <outlet property="exitButton" destination="0CZ-kL-2Tp" id="VkV-c1-wb3"/>
+                        <outlet property="disclaimerWindow" destination="EjY-Ia-gOH" id="QLd-js-5Vh"/>
                         <outlet property="nextButton" destination="mZv-Aj-8Ve" id="0Pc-NC-8p1"/>
                         <outlet property="progressView" destination="e3L-Wc-ZUY" id="QyO-9f-mAA"/>
                         <outlet property="retryButton" destination="nHj-Ib-ZVp" id="MPk-pe-NXF"/>
@@ -255,7 +273,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="exitButton" width="268" height="268"/>
+        <image name="disclaimerBG" width="1296" height="824"/>
+        <image name="disclaimerButton" width="1024" height="140"/>
         <image name="flashcardFrontDemo" width="1372" height="1612"/>
         <image name="flashcardSelectionBtn-1" width="1029" height="504"/>
         <image name="linkButton" width="117" height="117"/>

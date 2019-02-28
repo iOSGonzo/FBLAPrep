@@ -11,6 +11,8 @@ import UIKit
 
 class FlashcardsCyberSecurity: UIViewController{
     
+    
+    @IBOutlet weak var disclaimerWindow: UIVisualEffectView!
     @IBOutlet weak var cardIMG: UIButton!
     @IBOutlet weak var progressView: UIProgressView!
     @IBOutlet weak var nextButton: UIButton!
@@ -19,6 +21,13 @@ class FlashcardsCyberSecurity: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        disclaimerWindow.transform = CGAffineTransform(scaleX: 0.3, y: 2)
+        
+        UIView.animate(withDuration: 0.65, delay: 0.1, usingSpringWithDamping: 0.25, initialSpringVelocity: 0, options: .allowUserInteraction, animations: {
+            self.disclaimerWindow.transform = .identity
+        }) { (success) in
+            print("disclaimer!!")
+        }
         
 //      Styling for progress bar
         progressView.layer.cornerRadius = 8
@@ -57,6 +66,8 @@ class FlashcardsCyberSecurity: UIViewController{
     
     @IBAction func nextFlashcardTapped(_ sender: UIButton){
         if currentFlashcard < 9{
+            
+            
             //      nice little spring animation to button, derives from ButtonAnimations.swift
             sender.pulsate()
             
@@ -74,8 +85,9 @@ class FlashcardsCyberSecurity: UIViewController{
             self.currentProgress.completedUnitCount += 1
             let progressFloat = Float(self.currentProgress.fractionCompleted)
             self.progressView.setProgress(progressFloat, animated: true)
+            
+            
         } else if currentFlashcard == 9{
-            //      nice little spring animation to button, derives from ButtonAnimations.swift
             
             //      sets isFlipped to false, meaning the back side isn't showing when we transition to the next card
             isFlipped = false
@@ -93,15 +105,14 @@ class FlashcardsCyberSecurity: UIViewController{
             self.progressView.setProgress(progressFloat, animated: true)
             
             nextButton.isHidden = true
-            exitButton.isHidden = false
             retryButton.isHidden = false
+            
         }
 
         
     }
     
     @IBAction func retryButtonTapped(_ sender: UIButton){
-        exitButton.isHidden = true
         retryButton.isHidden = true
         nextButton.isHidden = false
         isFlipped = false
@@ -112,5 +123,28 @@ class FlashcardsCyberSecurity: UIViewController{
         let progressFloat = Float(self.currentProgress.fractionCompleted)
         self.progressView.setProgress(progressFloat, animated: true)
     }
+    
+    @IBAction func iUnderstand(_ sender: UIButton){
+        
+//      Disables user interaction until "I Understand" is clicked on disclaimer.
+        cardIMG.isUserInteractionEnabled = true
+        nextButton.isUserInteractionEnabled = true
+        
+        
+//      Shrink animation on "I understand" clicked
+        UIView.animate(withDuration: 0.3,
+                    animations: {
+                        self.disclaimerWindow.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+        },
+                    completion: { _ in
+                        UIView.animate(withDuration: 0.3) {
+                            self.disclaimerWindow.transform = CGAffineTransform(scaleX: 0, y: 0)
+        }
+        })
+        
+        
+        
+    }
+    
     
 }
