@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bDM-cD-8B7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BigBlackBear.ttf">
+            <string>BigBlackBear</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Test Types-->
+        <scene sceneID="6y3-ow-631">
+            <objects>
+                <viewController title="Test" id="bDM-cD-8B7" userLabel="Test Types" customClass="TestCyberSecurity" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bcu-B0-1rf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionBG" translatesAutoresizingMaskIntoConstraints="NO" id="5u1-jd-vfl">
+                                <rect key="frame" x="20" y="27" width="335" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="znZ-OC-0mB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y6F-uw-wLN">
+                                <rect key="frame" x="33" y="42" width="309" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="Mht-4h-XSG"/>
+                                </constraints>
+                                <string key="text">Which one of the following exposures associated with the spooling of sensitive reports for offline printing could be considered the most serious?</string>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="18"/>
+                                <color key="textColor" red="0.1132046059" green="0.27296638490000003" blue="0.34903037549999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="JJK-p3-I2h">
+                                <rect key="frame" x="20" y="285" width="335" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="answer1" backgroundImage="answerBtn4">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="action:" destination="bDM-cD-8B7" eventType="touchUpInside" id="Acq-gX-ez4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="k77-ze-X9g">
+                                <rect key="frame" x="20" y="336" width="335" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="answer2" backgroundImage="answerBtn4">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="action:" destination="bDM-cD-8B7" eventType="touchUpInside" id="uWt-YV-d0G"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="RnK-Ym-V31">
+                                <rect key="frame" x="20" y="438" width="335" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="answer4" backgroundImage="answerBtn4">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="action:" destination="bDM-cD-8B7" eventType="touchUpInside" id="gbr-sW-R7k"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="7FF-Yq-3Xb">
+                                <rect key="frame" x="20" y="387" width="335" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="-3" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="answer3" backgroundImage="answerBtn4">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="action:" destination="bDM-cD-8B7" eventType="touchUpInside" id="f9Y-CX-cEI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C9v-qM-l80">
+                                <rect key="frame" x="5" y="299" width="13" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFY-a9-JU0">
+                                <rect key="frame" x="6" y="349" width="11" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOC-ae-lyr">
+                                <rect key="frame" x="7" y="400" width="11" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="D" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wUu-V2-u32">
+                                <rect key="frame" x="7" y="450" width="11" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="correctPopup" translatesAutoresizingMaskIntoConstraints="NO" id="Y9v-lt-3iC">
+                                <rect key="frame" x="112" y="202" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="incorrectPopup" translatesAutoresizingMaskIntoConstraints="NO" id="Ie6-yS-6y1">
+                                <rect key="frame" x="112" y="202" width="150" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dHU-Em-Arp">
+                                <rect key="frame" x="25" y="5" width="325" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="7ew-SM-Wjc"/>
+                                </constraints>
+                                <color key="progressTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="trackTintColor" red="0.0" green="0.40392156862745099" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.35839915280000001" green="0.78424841170000004" blue="0.98041993380000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="ng3-dP-S7g" firstAttribute="trailing" secondItem="5u1-jd-vfl" secondAttribute="trailing" constant="20" id="GQH-Ck-eHU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dHU-Em-Arp" secondAttribute="trailing" constant="9" id="McX-gs-BRB"/>
+                            <constraint firstItem="5u1-jd-vfl" firstAttribute="top" secondItem="ng3-dP-S7g" secondAttribute="top" constant="27" id="QXt-1p-sp8"/>
+                            <constraint firstItem="dHU-Em-Arp" firstAttribute="leading" secondItem="bcu-B0-1rf" secondAttribute="leadingMargin" constant="9" id="bZO-xe-txn"/>
+                            <constraint firstItem="5u1-jd-vfl" firstAttribute="leading" secondItem="ng3-dP-S7g" secondAttribute="leading" constant="20" id="emq-ng-7QO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Y6F-uw-wLN" secondAttribute="trailing" constant="17" id="jLF-iz-HwR"/>
+                            <constraint firstItem="Y6F-uw-wLN" firstAttribute="leading" secondItem="bcu-B0-1rf" secondAttribute="leadingMargin" constant="17" id="r5P-BQ-6to"/>
+                            <constraint firstItem="Y6F-uw-wLN" firstAttribute="top" secondItem="bcu-B0-1rf" secondAttribute="topMargin" constant="42" id="tea-HC-pVu"/>
+                            <constraint firstItem="dHU-Em-Arp" firstAttribute="top" secondItem="ng3-dP-S7g" secondAttribute="top" constant="8" id="v2M-LH-oik"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ng3-dP-S7g"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cyber Security Test" largeTitleDisplayMode="always" id="2fs-v6-jyk"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <connections>
+                        <outlet property="correctPopup" destination="Y9v-lt-3iC" id="gbo-43-IWe"/>
+                        <outlet property="incorrectPopup" destination="Ie6-yS-6y1" id="E1H-ms-WBS"/>
+                        <outlet property="progressView" destination="dHU-Em-Arp" id="4OB-bX-tKV"/>
+                        <outlet property="questionLabel" destination="Y6F-uw-wLN" id="epi-b5-wtI"/>
+                        <segue destination="nXX-ir-kCs" kind="show" identifier="finishedTest" id="pMH-aF-cwV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XYv-NS-EvB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4480.8000000000002" y="-215.44227886056973"/>
+        </scene>
+        <!--Results-->
+        <scene sceneID="N2B-Vv-oVC">
+            <objects>
+                <viewController title="Results" id="nXX-ir-kCs" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gma-zc-IUj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="N0g-26-AJV"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4WK-T2-DxE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5327" y="-215"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="answerBtn4" width="1372" height="232"/>
+        <image name="correctPopup" width="632" height="632"/>
+        <image name="incorrectPopup" width="632" height="632"/>
+        <image name="questionBG" width="1372" height="1032"/>
+    </resources>
+</document>
