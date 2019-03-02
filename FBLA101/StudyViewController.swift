@@ -76,7 +76,7 @@ extension StudyViewController: UITableViewDataSource, UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath:IndexPath) {
         let selectedCompetition = competitiveEvents[indexPath.row]
-        
+        tableView.deselectRow(at: indexPath, animated: true)
         //cases to move to different segues
         switch selectedCompetition{
         case selectedCompetition: self.performSegue(withIdentifier: selectedCompetition, sender: self)

@@ -33,6 +33,8 @@
 		E0D4D6D82228866000B8EA3F /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D6D72228866000B8EA3F /* TestViewController.swift */; };
 		E0D4D6DA2228B57B00B8EA3F /* TestCyberSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D6D92228B57B00B8EA3F /* TestCyberSecurity.swift */; };
 		E0D4D6DC2228FF6700B8EA3F /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D6DB2228FF6700B8EA3F /* GlobalVariables.swift */; };
+		E0FA35D72229CE1700D61581 /* ResultsCyberSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA35D62229CE1700D61581 /* ResultsCyberSecurity.swift */; };
+		E0FA35D9222A642000D61581 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA35D8222A641F00D61581 /* SettingsViewController.swift */; };
 		EE7CB47AC6170574C38C4087 /* Pods_FBLAPrepTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CBE60D6CBEA20AE77D0DDA5 /* Pods_FBLAPrepTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +93,8 @@
 		E0D4D6D72228866000B8EA3F /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		E0D4D6D92228B57B00B8EA3F /* TestCyberSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCyberSecurity.swift; sourceTree = "<group>"; };
 		E0D4D6DB2228FF6700B8EA3F /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		E0FA35D62229CE1700D61581 /* ResultsCyberSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsCyberSecurity.swift; sourceTree = "<group>"; };
+		E0FA35D8222A641F00D61581 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E2B837424E8D94BA348A8F03 /* Pods-FBLAPrepTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLAPrepTests.release.xcconfig"; path = "Target Support Files/Pods-FBLAPrepTests/Pods-FBLAPrepTests.release.xcconfig"; sourceTree = "<group>"; };
 		FE4AADE109AE977EF6C9CA06 /* Pods-FBLAPrep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLAPrep.debug.xcconfig"; path = "Target Support Files/Pods-FBLAPrep/Pods-FBLAPrep.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,6 +193,8 @@
 				E0D4D6D3222862BC00B8EA3F /* AnimatedTabBar.swift */,
 				E0D4D6D72228866000B8EA3F /* TestViewController.swift */,
 				E0D4D6DB2228FF6700B8EA3F /* GlobalVariables.swift */,
+				E0FA35D62229CE1700D61581 /* ResultsCyberSecurity.swift */,
+				E0FA35D8222A641F00D61581 /* SettingsViewController.swift */,
 			);
 			path = FBLA101;
 			sourceTree = "<group>";
@@ -475,8 +481,10 @@
 				E002E8D122262FB90004D98B /* WebsitesCyberSecurity.swift in Sources */,
 				E039AC68220179DD008A76BE /* AppDelegate.swift in Sources */,
 				E002E8CA221C441B0004D98B /* Video.swift in Sources */,
+				E0FA35D72229CE1700D61581 /* ResultsCyberSecurity.swift in Sources */,
 				E0A90B8B221B48BC0079D883 /* NewTableViewCell.swift in Sources */,
 				E039AC70220179DD008A76BE /* FBLAPrep.xcdatamodeld in Sources */,
+				E0FA35D9222A642000D61581 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,3 +22,8 @@ var globalTotalPointsPossible = 0.001
 var globalTotalPoints = 0.001
 
 var globalTestPercentage:Int64 = 1
+
+var currentTestPercentage:Int64 = 0
+
+var currentScore = 0
+var maxPossibleScore = 5

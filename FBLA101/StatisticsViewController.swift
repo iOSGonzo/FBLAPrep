@@ -50,6 +50,8 @@ class StatisticsViewController: UIViewController{
     }
     
     @IBAction func resetButtonPressed(_ sender:UIButton){
+        sender.pulsate()
+        
         globalTestsTaken = 0
         globalFlashcardsStudied = 0
         globalVideosWatched = 0
