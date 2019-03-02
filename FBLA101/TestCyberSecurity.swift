@@ -19,14 +19,16 @@ class TestCyberSecurity: UIViewController{
     
     var currentQuestion = 0
     var correctAnswerPlacement:UInt32 = 0
-    var score = 0
-    var maxPossibleScore = 5
+
+    
+    //IBOUTLETS on TEST page
     
     @IBOutlet weak var progressView: UIProgressView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var correctPopup: UIImageView!
     @IBOutlet weak var incorrectPopup: UIImageView!
     
+
     //  currentProgress stores the amount of parts the progress bar is split into, as well as the current progress the bar is at
     let currentProgress = Progress(totalUnitCount: 5)
     
@@ -39,9 +41,9 @@ class TestCyberSecurity: UIViewController{
             self.progressView.setProgress(progressFloat, animated: true)
             
             print("CORRECT")
-            globalTotalPoints += 1
-            score += 1
-            print("currently your score is " + String(score) + "/" + String(maxPossibleScore))
+            
+            currentScore += 1
+            print("currently your currentScore is " + String(currentScore) + "/" + String(maxPossibleScore))
 
             correctPopup.isHidden = false
             
@@ -68,7 +70,7 @@ class TestCyberSecurity: UIViewController{
             self.progressView.setProgress(progressFloat, animated: true)
             
             print("WRONG")
-            print("currently your score is " + String(score) + "/" + String(maxPossibleScore))
+            print("currently your currentScore is " + String(currentScore) + "/" + String(maxPossibleScore))
             
             incorrectPopup.isHidden = false
             
@@ -96,6 +98,7 @@ class TestCyberSecurity: UIViewController{
             performSegue(withIdentifier: "finishedTest", sender: nil)
             globalTestsTaken += 1
             globalTotalPointsPossible += 5
+            globalTotalPoints += Double(currentScore)
         }
     }
     
@@ -105,6 +108,7 @@ class TestCyberSecurity: UIViewController{
         currentQuestion = 0
         newQuestion()
         
+        
 //      Styling for progress bar
         progressView.layer.cornerRadius = 7
         progressView.clipsToBounds = true
@@ -113,9 +117,10 @@ class TestCyberSecurity: UIViewController{
     }
     
     override func viewDidAppear(_ animated: Bool) {
-//      reset to first question and reset       progress bar
+//      reset to first question and reset progress bar
         currentQuestion = 0
         newQuestion()
+        currentScore = 0
         
         self.currentProgress.completedUnitCount = 0
         let progressFloat = Float(self.currentProgress.fractionCompleted)
@@ -145,5 +150,4 @@ class TestCyberSecurity: UIViewController{
         }
         currentQuestion += 1
     }
-    
 }
