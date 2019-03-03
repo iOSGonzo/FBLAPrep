@@ -11,7 +11,7 @@ import UIKit
 
 class FlashcardsCyberSecurity: UIViewController{
     
-    
+    //  Outlets for all dynamic UI Elements
     @IBOutlet weak var disclaimerWindow: UIVisualEffectView!
     @IBOutlet weak var cardIMG: UIButton!
     @IBOutlet weak var progressView: UIProgressView!
@@ -119,6 +119,7 @@ class FlashcardsCyberSecurity: UIViewController{
         
     }
     
+    //when retry button is tapped, reset the card set back to normal, as well as the progress bar.
     @IBAction func retryButtonTapped(_ sender: UIButton){
         cardIMG.isUserInteractionEnabled = true
         retryButton.isHidden = true
@@ -131,6 +132,7 @@ class FlashcardsCyberSecurity: UIViewController{
         let progressFloat = Float(self.currentProgress.fractionCompleted)
         self.progressView.setProgress(progressFloat, animated: true)
     }
+    
     
     @IBAction func iUnderstand(_ sender: UIButton){
         
@@ -149,7 +151,6 @@ class FlashcardsCyberSecurity: UIViewController{
                             self.disclaimerWindow.transform = CGAffineTransform(scaleX: 0, y: 0)
         }
         })
-        
         
     }
     
