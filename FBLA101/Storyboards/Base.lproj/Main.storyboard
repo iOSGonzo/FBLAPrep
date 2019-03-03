@@ -1030,8 +1030,7 @@ Built with </string>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="CreateAccountBtn"/>
                                 <connections>
-                                    <action selector="signUpPressed:" destination="qaT-W4-UWr" eventType="touchUpInside" id="X85-JI-xqG"/>
-                                    <action selector="signUpPressedWith_sender:" destination="qaT-W4-UWr" eventType="touchUpInside" id="AlE-Pd-Aad"/>
+                                    <action selector="signUpPressed:" destination="qaT-W4-UWr" eventType="touchUpInside" id="4tG-o4-VvJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iyZ-je-wXA">
