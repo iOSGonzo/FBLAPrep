@@ -12,6 +12,7 @@ import Firebase
 
 class loginViewController: UIViewController{
     
+    // outlets for the email and password field
     @IBOutlet weak var loginEmailField: UITextField!
     @IBOutlet weak var loginPasswordField: UITextField!
     
@@ -27,11 +28,13 @@ class loginViewController: UIViewController{
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+        //if user is logged in and opens app, go straight to home
         if let user = Auth.auth().currentUser{
             self.performSegue(withIdentifier: "goHome", sender: self)
         }
     }
     
+    //when the login button is pressed, check if the email and password fields are filled out. Then attempt to sign in with those credientials, if credientials are in database --> log in , if not, --> shake login button to indicate incorrect credientials.
     @IBAction func loginPressed(_ sender: UIButton) {
         guard let email = loginEmailField.text else{
             return
@@ -42,21 +45,16 @@ class loginViewController: UIViewController{
         
         Auth.auth().signIn(withEmail: email, password: password) {user, error in
             if error == nil && user != nil{
-                print("logged in")
                 self.performSegue(withIdentifier: "goHome", sender: self)
             } else{
                 sender.shake()
-                print("error")
             }
-            
         }
-        
     }
     
-    
+    //if continue as guest is pressed, continue home and set the value guestUser to true.
     @IBAction func ContinueAsGuestPressed(_ sender: Any) {
         self.performSegue(withIdentifier: "goHome", sender: self)
         guestUser = true
     }
-    
 }

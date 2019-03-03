@@ -12,6 +12,7 @@ import Firebase
 
 class signUpViewController: UIViewController{
     
+    //outlets for the username, email and password fields
     @IBOutlet weak var signUpUsernameField: UITextField!
     @IBOutlet weak var signUpEmailField: UITextField!
     @IBOutlet weak var signUpPasswordField: UITextField!
@@ -25,6 +26,7 @@ class signUpViewController: UIViewController{
         super.viewDidLoad()
     }
     
+    //when the create account button is pressed, check if the user, email and password fields are filled out. Then attempt to create account with those credientials, if everything goes well, account is created and you will be taken to login screen. If not, the create account button will shake indicating something is wrong.
     @IBAction func signUpPressed(_ sender: UIButton){
         
         guard let username = signUpUsernameField.text else{
@@ -46,20 +48,18 @@ class signUpViewController: UIViewController{
                 
                 changeRequest?.commitChanges { error in
                     if error == nil {
-                        print("User display name changed!")
                         self.dismiss(animated: true, completion: nil)
                     } else{
-                        print("ERROR: COULD NOT CHANGE DISPLAY NAME:(")
+                        sender.shake()
                     }
                 }
             }else{
                 sender.shake()
-                print("Error!")
             }
         }
     }
     
-    
+    //if continue as guest is pressed, continue home and set the value guestUser to true.
     @IBAction func ContinueAsGuestPressed2(_ sender: UIButton) {
         performSegue(withIdentifier: "goHome2", sender: self)
         guestUser = true
