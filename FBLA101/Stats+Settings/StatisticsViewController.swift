@@ -12,13 +12,14 @@ import Firebase
 
 class StatisticsViewController: UIViewController{
     
+    //  Outlets for all dynamic UI Elements
     @IBOutlet weak var overallTestingPercentageProgressView: UIProgressView!
     @IBOutlet weak var totalTestTakenLabel: UILabel!
     @IBOutlet weak var flashcardSetsStudiedLabel: UILabel!
     @IBOutlet weak var videosWatchedLabel: UILabel!
     @IBOutlet weak var overallTestingPercentageLabel: UILabel!
     
-    
+    //current progress on progress bar, and amount of sections
     let currentProgress = Progress(totalUnitCount: 100)
     
     override func viewDidLoad() {
@@ -33,7 +34,7 @@ class StatisticsViewController: UIViewController{
     }
     
     
-    //UPDATES #TESTSTAKEN
+    //updates the overall percentage and its meter
     override func viewDidAppear(_ animated: Bool) {
 
         globalTestPercentage = Int64((globalTotalPoints/globalTotalPointsPossible) * 100)
@@ -49,8 +50,8 @@ class StatisticsViewController: UIViewController{
         overallTestingPercentageLabel.text = String(globalTestPercentage) + "%"
     }
     
+    //when reset button is tapped is resets all stats
     @IBAction func resetButtonPressed(_ sender:UIButton){
-        
         
         sender.pulsate()
         
@@ -75,6 +76,4 @@ class StatisticsViewController: UIViewController{
         
         overallTestingPercentageLabel.text = String(globalTestPercentage) + "%"
     }
-    
-    
 }

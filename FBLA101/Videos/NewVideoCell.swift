@@ -33,6 +33,4 @@ class NewVideoCell: UITableViewCell{
         delegate?.didTapWatchNow(url: videoItem.url)
         globalVideosWatched += 1
     }
-    
-    
 }
