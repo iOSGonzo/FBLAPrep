@@ -11,7 +11,7 @@
 import Foundation
 import UIKit
 
-
+//creates a bounce animation whenever the tab is switched
 class AnimatedTabBar: UITabBarController{
     
     var firstItemImageView: UIImageView!

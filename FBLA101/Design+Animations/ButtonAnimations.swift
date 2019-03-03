@@ -10,6 +10,8 @@
 import Foundation
 import UIKit
 
+
+//an extension for quick and easy-to-implement button animations
 extension UIButton{
     
     func pulsate(){
