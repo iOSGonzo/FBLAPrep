@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 
+//video initializer
 class Video{
     var image: UIImage
     var url: String

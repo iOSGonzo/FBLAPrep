@@ -12,20 +12,18 @@ import SafariServices
 
 class VideosCyberSecurity: UIViewController{
     
+    //outlet for tableview
     @IBOutlet weak var videoTableView: UITableView!
   
-    
+    //array holding videos of type video
     var videos: [Video] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         createVideoArray()
-        
-        
-
     }
     
-    
+    //create the video cells containing thumbnail, link, and title.
     func createVideoArray(){
         let video1 = Video(image: UIImage(named: "CyberThumb1")!, url: "https://youtu.be/bPVaOlJ6ln0", title: "Cybersecurity Crash Course")
         let video2 = Video(image: UIImage(named: "CyberThumb2")!, url: "https://youtu.be/_nVq7f26-Uo", title: "5 Laws of Cybersecruity")
@@ -48,6 +46,7 @@ class VideosCyberSecurity: UIViewController{
     
 }
 
+//present video on youtube
 extension VideosCyberSecurity: videoCellDelegate {
     func didTapWatchNow(url: String) {
         let videoURL = URL(string: url)!
@@ -56,7 +55,7 @@ extension VideosCyberSecurity: videoCellDelegate {
     }
 }
 
-
+//make the tableview
 extension VideosCyberSecurity: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

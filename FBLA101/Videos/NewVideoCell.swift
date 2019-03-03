@@ -8,11 +8,12 @@
 
 import UIKit
 
+//videocellDelegate
 protocol videoCellDelegate {
     func didTapWatchNow(url: String)
 }
 
-
+//set up cell
 class NewVideoCell: UITableViewCell{
     
     @IBOutlet weak var videoThumbnail: UIImageView!
