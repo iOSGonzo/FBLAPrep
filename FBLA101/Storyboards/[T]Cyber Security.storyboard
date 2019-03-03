@@ -129,10 +129,10 @@
                                     <constraint firstAttribute="height" constant="14" id="7ew-SM-Wjc"/>
                                 </constraints>
                                 <color key="progressTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="trackTintColor" red="0.0" green="0.40392156862745099" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" red="0.16866556148618217" green="0.21411641215612798" blue="0.32921557741116747" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </progressView>
                         </subviews>
-                        <color key="backgroundColor" red="0.35839915280000001" green="0.78424841170000004" blue="0.98041993380000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.0" green="0.32156862749999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="ng3-dP-S7g" firstAttribute="trailing" secondItem="5u1-jd-vfl" secondAttribute="trailing" constant="20" id="GQH-Ck-eHU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dHU-Em-Arp" secondAttribute="trailing" constant="9" id="McX-gs-BRB"/>
@@ -222,7 +222,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.35839915280000001" green="0.78424841170000004" blue="0.98041993380000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.0" green="0.32156862749999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="N0g-26-AJV" firstAttribute="trailing" secondItem="0QL-FV-iwA" secondAttribute="trailing" constant="45" id="2BM-94-WtX"/>
                             <constraint firstItem="oWg-RW-obs" firstAttribute="top" secondItem="Uu0-e2-v8C" secondAttribute="bottom" constant="25" id="CIO-8b-9eR"/>

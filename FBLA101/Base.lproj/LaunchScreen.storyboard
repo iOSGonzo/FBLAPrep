@@ -33,6 +33,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LaunchScreenLogo" width="492" height="116"/>
+        <image name="LaunchScreenLogo" width="1476" height="348"/>
     </resources>
 </document>

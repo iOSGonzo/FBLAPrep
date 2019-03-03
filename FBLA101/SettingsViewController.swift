@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import MessageUI
+import Firebase
 
 class SettingsViewController: UITableViewController, MFMailComposeViewControllerDelegate{
     
@@ -17,7 +18,7 @@ class SettingsViewController: UITableViewController, MFMailComposeViewController
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if indexPath.section == 0 && indexPath.row == 0 {
+        if indexPath.section == 2 && indexPath.row == 0 {
             let mailComposeViewController = configureMailController()
             if MFMailComposeViewController.canSendMail(){
                 self.present(mailComposeViewController, animated: true, completion: nil)
@@ -25,10 +26,12 @@ class SettingsViewController: UITableViewController, MFMailComposeViewController
                 showMailError()
             }
         }
+        
+        if indexPath.section == 3 && indexPath.row == 0{
+            try! Auth.auth().signOut()
+            self.dismiss(animated: true, completion: nil)
+        }
     }
-    
-    
-    
     
     func configureMailController() -> MFMailComposeViewController {
         let mailComposerVC = MFMailComposeViewController()
@@ -49,5 +52,8 @@ class SettingsViewController: UITableViewController, MFMailComposeViewController
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         controller.dismiss(animated: true, completion: nil)
     }
+    
+    
+    
     
 }

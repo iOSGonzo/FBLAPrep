@@ -18,7 +18,7 @@
         <!--Study Resources-->
         <scene sceneID="NQJ-Ij-sTV">
             <objects>
-                <viewController storyboardIdentifier="ChooseTypeViewController" title="Study Resources" id="0rt-SO-y2g" customClass="ViewController" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ChooseTypeViewController" title="Study Resources" id="0rt-SO-y2g" customClass="ViewController" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16W-g0-DCb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -28,7 +28,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="160" id="bTD-vP-CPy"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="videoSelectionBtn-1"/>
+                                <state key="normal" backgroundImage="videoSelectionBtn-3"/>
                                 <connections>
                                     <segue destination="KwX-Xm-QH9" kind="show" id="CgG-5X-AGT"/>
                                 </connections>
@@ -38,7 +38,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="160" id="ZEF-qC-VkQ"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="websiteSelectionBtn-1"/>
+                                <state key="normal" backgroundImage="websiteSelectionBtn-3"/>
                                 <connections>
                                     <segue destination="Hl2-HQ-iuk" kind="show" id="JHi-qg-DmD"/>
                                 </connections>
@@ -48,13 +48,14 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="160" id="1RD-jl-y4h"/>
                                 </constraints>
-                                <state key="normal" backgroundImage="flashcardSelectionBtn-1"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="flashcardSelectionBtn-3"/>
                                 <connections>
                                     <segue destination="cFg-by-4QR" kind="show" id="h6L-ik-jDE"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.35839915280000001" green="0.78424841170000004" blue="0.98041993380000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.0" green="0.32156862749999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="dH0-m9-xEg" firstAttribute="top" secondItem="34N-UE-IPJ" secondAttribute="bottom" constant="8" id="Hbr-do-2tV"/>
                             <constraint firstItem="Cq8-o1-OuV" firstAttribute="bottom" secondItem="1rd-vu-a45" secondAttribute="bottom" constant="28" id="HmO-nM-iWs"/>
@@ -80,7 +81,7 @@
         <!--Video Resources-->
         <scene sceneID="fnr-au-pXi">
             <objects>
-                <viewController id="KwX-Xm-QH9" customClass="VideosCyberSecurity" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KwX-Xm-QH9" customClass="VideosCyberSecurity" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UvL-5P-wPS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -90,7 +91,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VideoCell" id="Hld-a3-vye" customClass="NewVideoCell" customModule="FBLAPrep" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="VideoCell" id="Hld-a3-vye" customClass="NewVideoCell" customModule="FBLA101" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hld-a3-vye" id="mz1-3f-S12">
@@ -166,7 +167,7 @@
         <!--Video Resources-->
         <scene sceneID="70v-Ek-0Gf">
             <objects>
-                <viewController title="Website Resources" id="Hl2-HQ-iuk" userLabel="Video Resources" customClass="WebsitesCyberSecurity" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Website Resources" id="Hl2-HQ-iuk" userLabel="Video Resources" customClass="WebsitesCyberSecurity" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Ds-iO-FgG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -192,7 +193,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.35839915280000001" green="0.78424841170000004" blue="0.98041993380000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.0" green="0.32156862749999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="tbL-R0-rnn"/>
                     </view>
                     <navigationItem key="navigationItem" title="Website Resources" largeTitleDisplayMode="always" id="42n-S3-0y3"/>
@@ -204,12 +205,12 @@
         <!--Cyber Security-->
         <scene sceneID="kfR-tm-9QO">
             <objects>
-                <viewController id="cFg-by-4QR" customClass="FlashcardsCyberSecurity" customModule="FBLAPrep" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cFg-by-4QR" customClass="FlashcardsCyberSecurity" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aXv-Kt-vE1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e3L-Wc-ZUY" customClass="progressViewStyling" customModule="FBLAPrep" customModuleProvider="target">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="e3L-Wc-ZUY" customClass="progressViewStyling" customModule="FBLA101" customModuleProvider="target">
                                 <rect key="frame" x="25" y="72" width="325" height="14"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="14" id="6cS-VM-gWN"/>
@@ -275,7 +276,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.3583991527557373" green="0.78424841165542603" blue="0.98041993379592896" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.0" green="0.32156862749999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="EjY-Ia-gOH" firstAttribute="leading" secondItem="fF1-Bx-uNp" secondAttribute="leading" constant="31" id="3Xo-mp-e0x"/>
                             <constraint firstItem="e3L-Wc-ZUY" firstAttribute="leading" secondItem="fF1-Bx-uNp" secondAttribute="leading" constant="25" id="68a-by-W2p"/>
@@ -314,12 +315,12 @@
         <image name="disclaimerBG" width="1296" height="824"/>
         <image name="disclaimerButton" width="1024" height="140"/>
         <image name="flashcardFrontDemo" width="1372" height="1612"/>
-        <image name="flashcardSelectionBtn-1" width="1029" height="504"/>
+        <image name="flashcardSelectionBtn-3" width="1029" height="504"/>
         <image name="linkButton" width="117" height="117"/>
         <image name="linkHolderBG" width="852" height="111"/>
         <image name="nextButtonRed" width="156" height="156"/>
         <image name="retryButton" width="268" height="268"/>
-        <image name="videoSelectionBtn-1" width="1029" height="504"/>
-        <image name="websiteSelectionBtn-1" width="1029" height="504"/>
+        <image name="videoSelectionBtn-3" width="1029" height="504"/>
+        <image name="websiteSelectionBtn-3" width="1029" height="504"/>
     </resources>
 </document>

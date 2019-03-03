@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>FBLA101 Widget.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>FBLAPrep.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E039AC63220179DD008A76BE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E039AC7A220179DF008A76BE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E039AC85220179DF008A76BE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0FA35DF222B238600D61581</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
