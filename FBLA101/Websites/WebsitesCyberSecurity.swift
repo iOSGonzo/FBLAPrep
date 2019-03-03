@@ -9,8 +9,10 @@
 import Foundation
 import UIKit
 
+//website view with hypelinks that lead to actual websites.
+
 class WebsitesCyberSecurity: UIViewController {
-    
+
     @IBAction func Link1(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://www.garykessler.net/library/crypto.html")! as URL, options: [:], completionHandler: nil)
     }
