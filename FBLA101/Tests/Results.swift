@@ -1,5 +1,5 @@
 //
-//  ResultsCyberSecurity.swift
+//  Results.swift
 //  FBLA101
 //
 //  Created by Gonzalo Birrueta on 3/1/19.
@@ -9,21 +9,22 @@
 import Foundation
 import UIKit
 
+//empty string var for sharing option
 var shareText = ""
 
 class Results: UIViewController{
-    
+
+    //  Outlets for all dynamic UI Elements
     @IBOutlet weak var youScoredLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var emojiLabel: UILabel!
     @IBOutlet weak var resultsNavigationItem: UINavigationItem!
-        @IBOutlet weak var colorRed: UILabel!
-        @IBOutlet weak var colorGreen: UILabel!
-    
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //sets the score label to score achieved
         scoreLabel.text = String(currentScore)+"/"+String(maxPossibleScore)
         changeEmoji()
     }
@@ -32,6 +33,7 @@ class Results: UIViewController{
        changeShareText()
     }
     
+    //changes emoji's depending on what score was
     func changeEmoji(){
         if currentScore<3{
             emojiLabel.text = "😅"
@@ -40,6 +42,7 @@ class Results: UIViewController{
         }
     }
     
+    //changes shareable text depending on what score was
     func changeShareText(){
         if currentScore<3{
             shareText = "I just got a score of " + scoreLabel.text! + " on FBLA101!😅"
@@ -48,6 +51,7 @@ class Results: UIViewController{
         }
     }
     
+    //instatiates activityController when the share button is pressed
     @IBAction func shareButtonPressed(_ sender: UIButton){
         sender.pulsate()
         let activityController = UIActivityViewController(activityItems: [shareText], applicationActivities: nil)

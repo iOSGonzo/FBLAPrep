@@ -185,20 +185,6 @@
                                     <action selector="shareButtonPressed:" destination="nXX-ir-kCs" eventType="touchUpInside" id="SU2-if-A2U"/>
                                 </connections>
                             </button>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVY-mK-eg4">
-                                <rect key="frame" x="111" y="68" width="141" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="45"/>
-                                <color key="textColor" red="1" green="0.25882352941176467" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjU-7T-0q8">
-                                <rect key="frame" x="111" y="111" width="141" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="45"/>
-                                <color key="textColor" red="0.0" green="0.99607843137254903" blue="0.50196078431372548" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSk-m5-Zc5">
                                 <rect key="frame" x="87" y="105" width="200" height="200"/>
                                 <constraints>
@@ -212,13 +198,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="#/#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uu0-e2-v8C">
                                 <rect key="frame" x="111" y="343" width="152" height="51"/>
                                 <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="45"/>
-                                <color key="textColor" red="0.1132046059" green="0.27296638490000003" blue="0.34903037549999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.12788060307502747" green="0.31442004442214966" blue="0.58826357126235962" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOU SCORED:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0QL-FV-iwA">
                                 <rect key="frame" x="45" y="20" width="285" height="51"/>
                                 <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="45"/>
-                                <color key="textColor" red="0.1132046059" green="0.27296638490000003" blue="0.34903037549999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" red="0.12788060307502747" green="0.31442004442214966" blue="0.58826357126235962" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -244,8 +230,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="Results📝" largeTitleDisplayMode="always" id="f1h-QP-YoR"/>
                     <connections>
-                        <outlet property="colorGreen" destination="MjU-7T-0q8" id="WhB-er-UJ2"/>
-                        <outlet property="colorRed" destination="gVY-mK-eg4" id="WNa-UF-KGq"/>
                         <outlet property="emojiLabel" destination="sSk-m5-Zc5" id="yQi-nt-iew"/>
                         <outlet property="resultsNavigationItem" destination="f1h-QP-YoR" id="Rks-ie-KY6"/>
                         <outlet property="scoreLabel" destination="Uu0-e2-v8C" id="NGN-HU-Kbb"/>
