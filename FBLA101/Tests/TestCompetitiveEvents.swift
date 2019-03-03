@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 
-class TestCyberSecurity: UIViewController{
+class TestCompetitiveEvents: UIViewController{
     
     
     //array containing questions that will be displayed on the view

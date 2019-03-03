@@ -28,5 +28,5 @@ var currentTestPercentage:Int64 = 0
 var currentScore = 0
 var maxPossibleScore = 5
 
-
+//keeps track if a guest is logged in or not
 var guestUser = false

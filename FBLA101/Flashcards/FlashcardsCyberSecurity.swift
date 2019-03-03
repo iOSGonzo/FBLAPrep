@@ -20,15 +20,9 @@ class FlashcardsCyberSecurity: UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-//      animate disclaimer onto flashcard view
-        disclaimerWindow.transform = CGAffineTransform(scaleX: 0.3, y: 2)
-        UIView.animate(withDuration: 0.65, delay: 0.1, usingSpringWithDamping: 0.25, initialSpringVelocity: 0, options: .allowUserInteraction, animations: {
-            self.disclaimerWindow.transform = .identity
-        }) { (success) in
-            print("disclaimer!!")
-        }
-        
+        cardIMG.isUserInteractionEnabled = true
+        nextButton.isUserInteractionEnabled = true
+
 //      Styling for progress bar
         progressView.layer.cornerRadius = 7
         progressView.clipsToBounds = true
@@ -132,24 +126,4 @@ class FlashcardsCyberSecurity: UIViewController{
         let progressFloat = Float(self.currentProgress.fractionCompleted)
         self.progressView.setProgress(progressFloat, animated: true)
     }
-    
-    
-//    @IBAction func iUnderstand(_ sender: UIButton){
-//
-////      Disables user interaction until "I Understand" is clicked on disclaimer.
-//        cardIMG.isUserInteractionEnabled = true
-//        nextButton.isUserInteractionEnabled = true
-//
-//
-////      Shrink animation on "I understand" clicked
-//        UIView.animate(withDuration: 0.3,
-//                    animations: {
-//                        self.disclaimerWindow.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
-//        },
-//                    completion: { _ in
-//                        UIView.animate(withDuration: 0.3) {
-//                            self.disclaimerWindow.transform = CGAffineTransform(scaleX: 0, y: 0)
-//        }
-//        })
-//    }
 }

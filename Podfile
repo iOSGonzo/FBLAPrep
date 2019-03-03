@@ -8,6 +8,5 @@ target 'FBLA101' do
   # Pods for FBLAPrep
     pod 'Firebase/Core'
     pod 'Firebase/Auth'
-    pod 'Firebase/Database'
     pod 'Firebase/Auth'
 end
