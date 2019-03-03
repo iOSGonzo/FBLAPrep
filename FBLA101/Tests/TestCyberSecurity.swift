@@ -12,17 +12,22 @@ import UIKit
 
 class TestCyberSecurity: UIViewController{
     
+    
+    //array containing questions that will be displayed on the view
     let questions = ["Which one of the following exposures associated with the spooling of sensitive reports for offline printing could be considered the most serious?","What is the Biba security model concerned with?","The Information Technology Security Evaluation Criteria (ITSEC) was written to address which one of the following that the Orange Book did not address?","What is a locking device that prevents unauthorized unplugging of cables from computer devices called?","Which one of the following is not a method to protect objects and the data within the objects?"]
     
+    //array containing options that will be displayed on the view (a,b,c,d)
     let answers = [["other unauthorized copies of reports could be printed","sensitive data may be read by operators","data cannot be altered without authorization","output would be lost in case of system failure"],["integrity","confidentiality","reliability","availability"],["integrity and availability","integrity and confidentiality","confidentiality and availability","accessibility and confidentiality"],["cable trap","door delay","slot locks","preset locks"],["data mining","layering","abstraction","data hiding"]]
     
     
+    //variable that keeps track of current question
     var currentQuestion = 0
+    //variable that keeps track of the correct answer location in the array
     var correctAnswerPlacement:UInt32 = 0
 
     
-    //IBOUTLETS on TEST page
     
+    //  Outlets for all dynamic UI Elements
     @IBOutlet weak var progressView: UIProgressView!
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var correctPopup: UIImageView!
@@ -33,6 +38,7 @@ class TestCyberSecurity: UIViewController{
     let currentProgress = Progress(totalUnitCount: 5)
     
     
+    // Executed whenever an answer is clicked on. In short is checks if the location selected is correct or not, if so it displays a popup animation stating if the answer was correct or wrong, it also progresses the progress bar.
     @IBAction func action(_ sender: UIButton){
         if (sender.tag == Int(correctAnswerPlacement)){
             
@@ -106,6 +112,8 @@ class TestCyberSecurity: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+//      when the view loads, sets the current question back to 0 and runs the function newQuestion() which
+//      randomizes the location of the possible answers again.
         currentQuestion = 0
         newQuestion()
         
@@ -118,7 +126,7 @@ class TestCyberSecurity: UIViewController{
     }
     
     override func viewDidAppear(_ animated: Bool) {
-//      reset to first question and reset progress bar
+//      almost the same as viewDidLoad, except is resets the progress bar and score as well.
         currentQuestion = 0
         newQuestion()
         currentScore = 0
