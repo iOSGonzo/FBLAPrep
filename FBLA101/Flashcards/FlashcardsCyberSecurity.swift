@@ -134,25 +134,22 @@ class FlashcardsCyberSecurity: UIViewController{
     }
     
     
-    @IBAction func iUnderstand(_ sender: UIButton){
-        
-//      Disables user interaction until "I Understand" is clicked on disclaimer.
-        cardIMG.isUserInteractionEnabled = true
-        nextButton.isUserInteractionEnabled = true
-        
-        
-//      Shrink animation on "I understand" clicked
-        UIView.animate(withDuration: 0.3,
-                    animations: {
-                        self.disclaimerWindow.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
-        },
-                    completion: { _ in
-                        UIView.animate(withDuration: 0.3) {
-                            self.disclaimerWindow.transform = CGAffineTransform(scaleX: 0, y: 0)
-        }
-        })
-        
-    }
-    
-    
+//    @IBAction func iUnderstand(_ sender: UIButton){
+//
+////      Disables user interaction until "I Understand" is clicked on disclaimer.
+//        cardIMG.isUserInteractionEnabled = true
+//        nextButton.isUserInteractionEnabled = true
+//
+//
+////      Shrink animation on "I understand" clicked
+//        UIView.animate(withDuration: 0.3,
+//                    animations: {
+//                        self.disclaimerWindow.transform = CGAffineTransform(scaleX: 0.1, y: 0.1)
+//        },
+//                    completion: { _ in
+//                        UIView.animate(withDuration: 0.3) {
+//                            self.disclaimerWindow.transform = CGAffineTransform(scaleX: 0, y: 0)
+//        }
+//        })
+//    }
 }

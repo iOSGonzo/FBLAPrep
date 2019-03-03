@@ -295,6 +295,11 @@
                             <constraint firstItem="fF1-Bx-uNp" firstAttribute="trailing" secondItem="mZv-Aj-8Ve" secondAttribute="trailing" constant="148" id="nsE-sw-Ny8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fF1-Bx-uNp"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="EjY-Ia-gOH"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Cyber Security" largeTitleDisplayMode="always" id="rRs-Q6-CJD"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
