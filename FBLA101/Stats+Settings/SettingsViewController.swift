@@ -11,10 +11,33 @@ import UIKit
 import MessageUI
 import Firebase
 
+
 class SettingsViewController: UITableViewController, MFMailComposeViewControllerDelegate{
+    
+    
+    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var LogoutLabel: UILabel!
+    
+    @IBOutlet weak var SignInLabel: UILabel!
+
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let user = Auth.auth().currentUser{
+            emailLabel.text = Auth.auth().currentUser?.email
+            usernameLabel.text = Auth.auth().currentUser?.displayName
+            guestUser = false
+            
+        }
+        if guestUser == true{
+            SignInLabel.isHidden = false
+            LogoutLabel.isHidden = true
+        } else {
+            SignInLabel.isHidden = true
+            LogoutLabel.isHidden = false
+        }
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -52,8 +75,4 @@ class SettingsViewController: UITableViewController, MFMailComposeViewController
     func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: Error?) {
         controller.dismiss(animated: true, completion: nil)
     }
-    
-    
-    
-    
 }

@@ -11,7 +11,7 @@ import UIKit
 
 var shareText = ""
 
-class ResultsCyberSecurity: UIViewController{
+class Results: UIViewController{
     
     @IBOutlet weak var youScoredLabel: UILabel!
     @IBOutlet weak var scoreLabel: UILabel!

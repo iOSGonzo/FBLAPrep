@@ -40,12 +40,12 @@ class loginViewController: UIViewController{
             return
         }
         
-        
         Auth.auth().signIn(withEmail: email, password: password) {user, error in
             if error == nil && user != nil{
                 print("logged in")
                 self.performSegue(withIdentifier: "goHome", sender: self)
             } else{
+                sender.shake()
                 print("error")
             }
             
@@ -53,5 +53,10 @@ class loginViewController: UIViewController{
         
     }
     
+    
+    @IBAction func ContinueAsGuestPressed(_ sender: Any) {
+        self.performSegue(withIdentifier: "goHome", sender: self)
+        guestUser = true
+    }
     
 }

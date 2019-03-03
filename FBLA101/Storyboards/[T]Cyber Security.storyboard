@@ -164,7 +164,7 @@
         <!--Results-->
         <scene sceneID="N2B-Vv-oVC">
             <objects>
-                <viewController title="Results" id="nXX-ir-kCs" customClass="ResultsCyberSecurity" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Results" id="nXX-ir-kCs" customClass="Results" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gma-zc-IUj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

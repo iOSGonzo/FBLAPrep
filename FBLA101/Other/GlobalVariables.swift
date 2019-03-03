@@ -27,3 +27,6 @@ var currentTestPercentage:Int64 = 0
 
 var currentScore = 0
 var maxPossibleScore = 5
+
+
+var guestUser = false

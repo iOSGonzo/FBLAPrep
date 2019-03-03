@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import Firebase
 
 class StatisticsViewController: UIViewController{
     
@@ -29,12 +30,12 @@ class StatisticsViewController: UIViewController{
         overallTestingPercentageProgressView.layer.sublayers![1].cornerRadius = 7
         overallTestingPercentageProgressView.subviews[1].clipsToBounds = true
         
-        
     }
     
     
     //UPDATES #TESTSTAKEN
     override func viewDidAppear(_ animated: Bool) {
+
         globalTestPercentage = Int64((globalTotalPoints/globalTotalPointsPossible) * 100)
         
         totalTestTakenLabel.text = String(globalTestsTaken)
@@ -45,11 +46,12 @@ class StatisticsViewController: UIViewController{
         let progressFloat = Float(self.currentProgress.fractionCompleted)
         self.overallTestingPercentageProgressView.setProgress(progressFloat, animated: true)
         
-        
         overallTestingPercentageLabel.text = String(globalTestPercentage) + "%"
     }
     
     @IBAction func resetButtonPressed(_ sender:UIButton){
+        
+        
         sender.pulsate()
         
         globalTestsTaken = 0

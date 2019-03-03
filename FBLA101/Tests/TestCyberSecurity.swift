@@ -43,6 +43,7 @@ class TestCyberSecurity: UIViewController{
             print("CORRECT")
             
             currentScore += 1
+            
             print("currently your currentScore is " + String(currentScore) + "/" + String(maxPossibleScore))
 
             correctPopup.isHidden = false

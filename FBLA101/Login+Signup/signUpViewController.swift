@@ -25,7 +25,7 @@ class signUpViewController: UIViewController{
         super.viewDidLoad()
     }
     
-    @IBAction func signUpPressed(_ sender: Any){
+    @IBAction func signUpPressed(_ sender: UIButton){
         
         guard let username = signUpUsernameField.text else{
             return
@@ -53,9 +53,17 @@ class signUpViewController: UIViewController{
                     }
                 }
             }else{
+                sender.shake()
                 print("Error!")
             }
         }
+    }
+    
+    
+    @IBAction func ContinueAsGuestPressed2(_ sender: UIButton) {
+        performSegue(withIdentifier: "goHome2", sender: self)
+        guestUser = true
+        
     }
     
 }
