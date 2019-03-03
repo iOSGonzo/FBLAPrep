@@ -10,9 +10,9 @@
 		B17B6703B3FBA5780DC9C65A /* Pods_FBLA101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA43AE80E28679479EED4E /* Pods_FBLA101.framework */; };
 		E002E8CA221C441B0004D98B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8C9221C441B0004D98B /* Video.swift */; };
 		E002E8CC221C45C30004D98B /* VideosCyberSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8CB221C45C30004D98B /* VideosCyberSecurity.swift */; };
-		E002E8CF22220BB60004D98B /* [S]Cyber Security.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E002E8CE22220BB60004D98B /* [S]Cyber Security.storyboard */; };
+		E002E8CF22220BB60004D98B /* [S]Competitive Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E002E8CE22220BB60004D98B /* [S]Competitive Events.storyboard */; };
 		E002E8D122262FB90004D98B /* WebsitesCyberSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8D022262FB90004D98B /* WebsitesCyberSecurity.swift */; };
-		E002E8D3222651A50004D98B /* FlashcardsCyberSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8D2222651A50004D98B /* FlashcardsCyberSecurity.swift */; };
+		E002E8D3222651A50004D98B /* FlashcardsCompetitiveEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8D2222651A50004D98B /* FlashcardsCompetitiveEvents.swift */; };
 		E039AC68220179DD008A76BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039AC67220179DD008A76BE /* AppDelegate.swift */; };
 		E039AC6A220179DD008A76BE /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039AC69220179DD008A76BE /* StudyViewController.swift */; };
 		E039AC6D220179DD008A76BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E039AC6B220179DD008A76BE /* Main.storyboard */; };
@@ -57,6 +57,12 @@
 		E0FA613F222C09AB009955BC /* TestHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA613E222C09AB009955BC /* TestHistory.swift */; };
 		E0FA6141222C09C4009955BC /* TestNationalChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6140222C09C4009955BC /* TestNationalChapter.swift */; };
 		E0FA6143222C09DE009955BC /* TestFunFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6142222C09DE009955BC /* TestFunFacts.swift */; };
+		E0FA6145222C0B28009955BC /* [S]Business Etiquette.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA6144222C0B28009955BC /* [S]Business Etiquette.storyboard */; };
+		E0FA6147222C0B3C009955BC /* [S]NLC Knowledge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA6146222C0B3C009955BC /* [S]NLC Knowledge.storyboard */; };
+		E0FA6149222C0B53009955BC /* [S]Parliamentary Procedure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA6148222C0B53009955BC /* [S]Parliamentary Procedure.storyboard */; };
+		E0FA614B222C0B65009955BC /* [S]History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA614A222C0B65009955BC /* [S]History.storyboard */; };
+		E0FA614D222C0B88009955BC /* [S]National Chapter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA614C222C0B88009955BC /* [S]National Chapter.storyboard */; };
+		E0FA614F222C0B98009955BC /* [S]Fun Facts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA614E222C0B98009955BC /* [S]Fun Facts.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,9 +109,9 @@
 		B5DF78F493833BA28B72D791 /* Pods-FBLA101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLA101.release.xcconfig"; path = "Target Support Files/Pods-FBLA101/Pods-FBLA101.release.xcconfig"; sourceTree = "<group>"; };
 		E002E8C9221C441B0004D98B /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		E002E8CB221C45C30004D98B /* VideosCyberSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosCyberSecurity.swift; sourceTree = "<group>"; };
-		E002E8CE22220BB60004D98B /* [S]Cyber Security.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]Cyber Security.storyboard"; sourceTree = "<group>"; };
+		E002E8CE22220BB60004D98B /* [S]Competitive Events.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]Competitive Events.storyboard"; sourceTree = "<group>"; };
 		E002E8D022262FB90004D98B /* WebsitesCyberSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsitesCyberSecurity.swift; sourceTree = "<group>"; };
-		E002E8D2222651A50004D98B /* FlashcardsCyberSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsCyberSecurity.swift; sourceTree = "<group>"; };
+		E002E8D2222651A50004D98B /* FlashcardsCompetitiveEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsCompetitiveEvents.swift; sourceTree = "<group>"; };
 		E039AC64220179DD008A76BE /* FBLA101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLA101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E039AC67220179DD008A76BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E039AC69220179DD008A76BE /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +160,12 @@
 		E0FA613E222C09AB009955BC /* TestHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHistory.swift; sourceTree = "<group>"; };
 		E0FA6140222C09C4009955BC /* TestNationalChapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNationalChapter.swift; sourceTree = "<group>"; };
 		E0FA6142222C09DE009955BC /* TestFunFacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFunFacts.swift; sourceTree = "<group>"; };
+		E0FA6144222C0B28009955BC /* [S]Business Etiquette.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]Business Etiquette.storyboard"; sourceTree = "<group>"; };
+		E0FA6146222C0B3C009955BC /* [S]NLC Knowledge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]NLC Knowledge.storyboard"; sourceTree = "<group>"; };
+		E0FA6148222C0B53009955BC /* [S]Parliamentary Procedure.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]Parliamentary Procedure.storyboard"; sourceTree = "<group>"; };
+		E0FA614A222C0B65009955BC /* [S]History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]History.storyboard"; sourceTree = "<group>"; };
+		E0FA614C222C0B88009955BC /* [S]National Chapter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]National Chapter.storyboard"; sourceTree = "<group>"; };
+		E0FA614E222C0B98009955BC /* [S]Fun Facts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]Fun Facts.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,7 +225,7 @@
 			children = (
 				E039AC73220179DF008A76BE /* LaunchScreen.storyboard */,
 				E039AC6B220179DD008A76BE /* Main.storyboard */,
-				E002E8CE22220BB60004D98B /* [S]Cyber Security.storyboard */,
+				E002E8CE22220BB60004D98B /* [S]Competitive Events.storyboard */,
 				E0D4D6D522287B8D00B8EA3F /* [T]Competitive Events.storyboard */,
 				E0FA612B222BFE4A009955BC /* [T]Business Etiquette.storyboard */,
 				E0FA612F222C07A7009955BC /* [T]NLC Knowledge.storyboard */,
@@ -221,6 +233,12 @@
 				E0FA6138222C08C6009955BC /* [T]History.storyboard */,
 				E0FA613A222C08E3009955BC /* [T]National Chapter.storyboard */,
 				E0FA613C222C08FF009955BC /* [T]Fun Facts.storyboard */,
+				E0FA6144222C0B28009955BC /* [S]Business Etiquette.storyboard */,
+				E0FA6146222C0B3C009955BC /* [S]NLC Knowledge.storyboard */,
+				E0FA6148222C0B53009955BC /* [S]Parliamentary Procedure.storyboard */,
+				E0FA614A222C0B65009955BC /* [S]History.storyboard */,
+				E0FA614C222C0B88009955BC /* [S]National Chapter.storyboard */,
+				E0FA614E222C0B98009955BC /* [S]Fun Facts.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -373,7 +391,7 @@
 		E0FA6126222BE72B009955BC /* Flashcards */ = {
 			isa = PBXGroup;
 			children = (
-				E002E8D2222651A50004D98B /* FlashcardsCyberSecurity.swift */,
+				E002E8D2222651A50004D98B /* FlashcardsCompetitiveEvents.swift */,
 			);
 			path = Flashcards;
 			sourceTree = "<group>";
@@ -525,19 +543,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0FA614B222C0B65009955BC /* [S]History.storyboard in Resources */,
 				E039AC75220179DF008A76BE /* LaunchScreen.storyboard in Resources */,
-				E002E8CF22220BB60004D98B /* [S]Cyber Security.storyboard in Resources */,
+				E002E8CF22220BB60004D98B /* [S]Competitive Events.storyboard in Resources */,
+				E0FA6145222C0B28009955BC /* [S]Business Etiquette.storyboard in Resources */,
 				E0FA612C222BFE4A009955BC /* [T]Business Etiquette.storyboard in Resources */,
 				E039AC72220179DF008A76BE /* Assets.xcassets in Resources */,
 				E039AC6D220179DD008A76BE /* Main.storyboard in Resources */,
 				E0D4D6D622287B8D00B8EA3F /* [T]Competitive Events.storyboard in Resources */,
 				E0FA613D222C08FF009955BC /* [T]Fun Facts.storyboard in Resources */,
 				E0FA6130222C07A7009955BC /* [T]NLC Knowledge.storyboard in Resources */,
+				E0FA6149222C0B53009955BC /* [S]Parliamentary Procedure.storyboard in Resources */,
+				E0FA6147222C0B3C009955BC /* [S]NLC Knowledge.storyboard in Resources */,
 				E0A90B94221B8E090079D883 /* BigBlackBear.ttf in Resources */,
 				E0FA6139222C08C6009955BC /* [T]History.storyboard in Resources */,
 				E0FA6135222C084F009955BC /* [T]Parliamentary Procedure.storyboard in Resources */,
 				E0FA613B222C08E3009955BC /* [T]National Chapter.storyboard in Resources */,
+				E0FA614F222C0B98009955BC /* [S]Fun Facts.storyboard in Resources */,
 				E0FA35F2222B725C00D61581 /* GoogleService-Info.plist in Resources */,
+				E0FA614D222C0B88009955BC /* [S]National Chapter.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,7 +655,7 @@
 				E0A90B98221BEC1A0079D883 /* NewVideoCell.swift in Sources */,
 				E0D4D6D22227BD1100B8EA3F /* StatisticsViewController.swift in Sources */,
 				E039AC6A220179DD008A76BE /* StudyViewController.swift in Sources */,
-				E002E8D3222651A50004D98B /* FlashcardsCyberSecurity.swift in Sources */,
+				E002E8D3222651A50004D98B /* FlashcardsCompetitiveEvents.swift in Sources */,
 				E0FA612E222BFEAC009955BC /* TestBusinessEtiquette.swift in Sources */,
 				E0A90B8F221B7E8A0079D883 /* ApplyShadows.swift in Sources */,
 				E0D4D6DA2228B57B00B8EA3F /* TestCompetitiveEvents.swift in Sources */,

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class FlashcardsCyberSecurity: UIViewController{
+class FlashcardsCompetitiveEvents: UIViewController{
     
     //  Outlets for all dynamic UI Elements
     @IBOutlet weak var disclaimerWindow: UIVisualEffectView!

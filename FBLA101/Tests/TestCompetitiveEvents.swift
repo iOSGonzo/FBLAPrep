@@ -14,10 +14,10 @@ class TestCompetitiveEvents: UIViewController{
     
     
     //array containing questions that will be displayed on the view
-    let questions = ["Which one of the following exposures associated with the spooling of sensitive reports for offline printing could be considered the most serious?","What is the Biba security model concerned with?","The Information Technology Security Evaluation Criteria (ITSEC) was written to address which one of the following that the Orange Book did not address?","What is a locking device that prevents unauthorized unplugging of cables from computer devices called?","Which one of the following is not a method to protect objects and the data within the objects?"]
+    let questions = ["How many competitive events are there currently in FBLA?","Which of the following is NOT an fbla competitive event?","Introduction events are meant for which grade/s?","Which of the following events is new to FBLA??","Which of the following events require additional software to compete in?"]
     
     //array containing options that will be displayed on the view (a,b,c,d)
-    let answers = [["other unauthorized copies of reports could be printed","sensitive data may be read by operators","data cannot be altered without authorization","output would be lost in case of system failure"],["integrity","confidentiality","reliability","availability"],["integrity and availability","integrity and confidentiality","confidentiality and availability","accessibility and confidentiality"],["cable trap","door delay","slot locks","preset locks"],["data mining","layering","abstraction","data hiding"]]
+    let answers = [["72","40","83","157"],["potato judging","economics","cyber security","political science"],["9th & 10th", "9th", "10th & 11th","all grades"],["political science","accounting II","business plan","networking"],["3D-animation","Business Calculations","Impromptu Speaking","Introduction to Financial Math"]]
     
     
     //variable that keeps track of current question

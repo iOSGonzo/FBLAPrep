@@ -164,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="2840.8000000000002" y="-47.226386806596707"/>
         </scene>
-        <!--[S]Cyber Security-->
+        <!--[S]Competitive Events-->
         <scene sceneID="0BW-Ct-0tR">
             <objects>
-                <viewControllerPlaceholder storyboardName="[S]Cyber Security" id="OdS-pp-mck" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="[S]Competitive Events" id="OdS-pp-mck" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m5f-eA-lit" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3857" y="-287"/>
