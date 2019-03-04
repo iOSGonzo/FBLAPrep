@@ -31,7 +31,7 @@ Features
  - An iOS device/simulator running iOS 10.0 or higher
  - Xcode 8.2 or higher
  - An active Internet connection
- - NOTE: Only supported on devices iPhone 6, iPhone 7, and iPhone 8. (No plus versions!!)
+ - NOTE: Only supported on devices iPhone 6, iPhone 6s, iPhone 7, and iPhone 8. (No plus versions!!)
  
  Installation
 -------------
