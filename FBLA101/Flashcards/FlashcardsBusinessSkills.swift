@@ -43,7 +43,7 @@ class FlashcardsBusinessSkills: UIViewController{
     var currentFlashcard = 0
     
     //  currentProgress stores the amount of parts the progress bar is split into, as well as the current progress the bar is at
-    let currentProgress = Progress(totalUnitCount: 9)
+    let currentProgress = Progress(totalUnitCount: 5)
     
     //  all flashcard images in array
     var frontImages = ["FCF1S","FCF2S","FCF3S","FCF4S","FCF5S","FCEnd"]
@@ -66,7 +66,7 @@ class FlashcardsBusinessSkills: UIViewController{
     
     
     @IBAction func nextFlashcardTapped(_ sender: UIButton){
-        if currentFlashcard < 8{
+        if currentFlashcard < 4{
             
             //button spring animation, derives from ButtonAnimations.swift
             sender.pulsate()
@@ -87,7 +87,7 @@ class FlashcardsBusinessSkills: UIViewController{
             self.progressView.setProgress(progressFloat, animated: true)
             
             
-        } else if currentFlashcard == 8{
+        } else if currentFlashcard == 4{
             
             //      sets isFlipped to false, meaning the back side isn't showing when we transition to the next card
             isFlipped = false
