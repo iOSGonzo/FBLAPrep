@@ -6,7 +6,7 @@ target 'FBLA101' do
   use_frameworks!
 
   # Pods for FBLAPrep
-    pod 'Firebase/Core'
-    pod 'Firebase/Auth'
-    pod 'Firebase/Auth'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Auth'
 end
