@@ -63,9 +63,23 @@ After downloading the .zip file you will most likely need to change the signing 
  - Swift - A fairly new programming language used within iOS applications
  - Sketch - A professional graphic design program used to make most of the UI
  - Firebase - A database used for FBLA's authentication
+ - Microsoft Teams - A project base planner
  
  
   Instructions
 -------------
 
 1. Upon opening app, you get directed to a login screen, you can either log in with an existing account or create a new account or even continue as a guest if you'd like.
+2. You are now in the testing screen. The application consists of three tabs, Study, Test, and Stats. You can choose where to start but I really recommend you start in the study tab if you are not very informed about these fbla topics:)
+3. Now that you are in the study tab, there are 5 different FBLA topics to choose from. Choose one
+4. You can now choose from 2 study resources, the websites tab usually just has the fbla website or another website related to the topic.
+5. If you choose flashcards, you get presented with a flashcard game to study from.
+6. Now that you have studied your topic, you can go to the test tab to take your test!
+7. Choose the topic corresponding with the topic you studied for.
+8. This takes you to the test, with a couple of questions on your topic. 
+9. Once you finish your test you can choose to share your results on social media like Twitter, Telegram, Slack, etc.
+10. Finally, there is the stats tab, this displays your overall testing percentage, total tests taken, flashcard sets studied, and websites visited.
+11. To access the settings, click the little cog on the top right corner.
+12. Here you could see your username/email linked to the account, our privacy policy, license, and about app.
+13. Here, you can also report a bug! Just click the report bug button and you will be directed to our support email (NOTE: This feature won't work if running on simulator)
+14. Finally, you can also log in/log out through this screen.
