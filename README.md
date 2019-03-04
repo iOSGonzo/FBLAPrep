@@ -1,7 +1,7 @@
 FBLA101
 ===================
 
-FBLA101 is an iOS app for FBLA Mobile Application Development, will be displayed for judges at FBLA SBLC.
+FBLA101 is an iOS app for FBLA Mobile Application Development, will be displayed to judges at FBLA SBLC.
 
 Introduction
 -------------
