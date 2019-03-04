@@ -135,6 +135,7 @@ class TestBusinessSkills: UIViewController{
         self.currentProgress.completedUnitCount = 0
         let progressFloat = Float(self.currentProgress.fractionCompleted)
         self.progressView.setProgress(progressFloat, animated: true)
+        maxPossibleScore = 5
     }
     
     func newQuestion(){
