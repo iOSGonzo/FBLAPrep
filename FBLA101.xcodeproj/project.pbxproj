@@ -8,32 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		B17B6703B3FBA5780DC9C65A /* Pods_FBLA101.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CDA43AE80E28679479EED4E /* Pods_FBLA101.framework */; };
-		E002E8CA221C441B0004D98B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8C9221C441B0004D98B /* Video.swift */; };
-		E002E8CC221C45C30004D98B /* VideosCyberSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8CB221C45C30004D98B /* VideosCyberSecurity.swift */; };
 		E002E8CF22220BB60004D98B /* [S]Competitive Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E002E8CE22220BB60004D98B /* [S]Competitive Events.storyboard */; };
-		E002E8D122262FB90004D98B /* WebsitesCyberSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8D022262FB90004D98B /* WebsitesCyberSecurity.swift */; };
+		E002E8D122262FB90004D98B /* WebsitesCompetitiveEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8D022262FB90004D98B /* WebsitesCompetitiveEvents.swift */; };
 		E002E8D3222651A50004D98B /* FlashcardsCompetitiveEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E002E8D2222651A50004D98B /* FlashcardsCompetitiveEvents.swift */; };
 		E039AC68220179DD008A76BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039AC67220179DD008A76BE /* AppDelegate.swift */; };
-		E039AC6A220179DD008A76BE /* StudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039AC69220179DD008A76BE /* StudyViewController.swift */; };
 		E039AC6D220179DD008A76BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E039AC6B220179DD008A76BE /* Main.storyboard */; };
 		E039AC70220179DD008A76BE /* FBLAPrep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E039AC6E220179DD008A76BE /* FBLAPrep.xcdatamodeld */; };
 		E039AC72220179DF008A76BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E039AC71220179DF008A76BE /* Assets.xcassets */; };
 		E039AC75220179DF008A76BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E039AC73220179DF008A76BE /* LaunchScreen.storyboard */; };
 		E039AC80220179DF008A76BE /* FBLAPrepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039AC7F220179DF008A76BE /* FBLAPrepTests.swift */; };
 		E039AC8B220179DF008A76BE /* FBLAPrepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039AC8A220179DF008A76BE /* FBLAPrepUITests.swift */; };
+		E080D20C222D2036006ADBAA /* FlashcardsBusinessSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080D20B222D2036006ADBAA /* FlashcardsBusinessSkills.swift */; };
+		E080D20E222D22CE006ADBAA /* WebsitesBusinessSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = E080D20D222D22CE006ADBAA /* WebsitesBusinessSkills.swift */; };
 		E094CD50222B7892008D23CE /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094CD4F222B7892008D23CE /* loginViewController.swift */; };
 		E094CD52222B8AA9008D23CE /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E094CD51222B8AA9008D23CE /* signUpViewController.swift */; };
-		E0A90B8B221B48BC0079D883 /* NewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A90B8A221B48BC0079D883 /* NewTableViewCell.swift */; };
 		E0A90B8D221B79680079D883 /* ButtonAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A90B8C221B79670079D883 /* ButtonAnimations.swift */; };
 		E0A90B8F221B7E8A0079D883 /* ApplyShadows.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A90B8E221B7E8A0079D883 /* ApplyShadows.swift */; };
 		E0A90B94221B8E090079D883 /* BigBlackBear.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0A90B93221B8E060079D883 /* BigBlackBear.ttf */; };
-		E0A90B98221BEC1A0079D883 /* NewVideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A90B97221BEC1A0079D883 /* NewVideoCell.swift */; };
 		E0D4D6D22227BD1100B8EA3F /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D6D12227BD1100B8EA3F /* StatisticsViewController.swift */; };
 		E0D4D6D4222862BC00B8EA3F /* AnimatedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D6D3222862BC00B8EA3F /* AnimatedTabBar.swift */; };
 		E0D4D6D622287B8D00B8EA3F /* [T]Competitive Events.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0D4D6D522287B8D00B8EA3F /* [T]Competitive Events.storyboard */; };
-		E0D4D6D82228866000B8EA3F /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D6D72228866000B8EA3F /* TestViewController.swift */; };
 		E0D4D6DA2228B57B00B8EA3F /* TestCompetitiveEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D6D92228B57B00B8EA3F /* TestCompetitiveEvents.swift */; };
 		E0D4D6DC2228FF6700B8EA3F /* GlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4D6DB2228FF6700B8EA3F /* GlobalVariables.swift */; };
+		E0D57F6B222D10E80073EB2E /* FlashcardsNationalChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D57F6A222D10E80073EB2E /* FlashcardsNationalChapter.swift */; };
+		E0D57F6D222D12BB0073EB2E /* WebsitesNationalChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D57F6C222D12BB0073EB2E /* WebsitesNationalChapter.swift */; };
 		E0FA35D72229CE1700D61581 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA35D62229CE1700D61581 /* Results.swift */; };
 		E0FA35D9222A642000D61581 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA35D8222A641F00D61581 /* SettingsViewController.swift */; };
 		E0FA35E2222B238600D61581 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FA35E1222B238600D61581 /* NotificationCenter.framework */; };
@@ -45,24 +43,23 @@
 		E0FA35F4222B725D00D61581 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0FA35F1222B725C00D61581 /* GoogleService-Info.plist */; };
 		E0FA35F5222B725D00D61581 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0FA35F1222B725C00D61581 /* GoogleService-Info.plist */; };
 		E0FA612A222BF83B009955BC /* TestSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6129222BF83B009955BC /* TestSelection.swift */; };
-		E0FA612C222BFE4A009955BC /* [T]Business Etiquette.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA612B222BFE4A009955BC /* [T]Business Etiquette.storyboard */; };
-		E0FA612E222BFEAC009955BC /* TestBusinessEtiquette.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA612D222BFEAC009955BC /* TestBusinessEtiquette.swift */; };
+		E0FA612E222BFEAC009955BC /* TestBusinessSkills.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA612D222BFEAC009955BC /* TestBusinessSkills.swift */; };
 		E0FA6130222C07A7009955BC /* [T]NLC Knowledge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA612F222C07A7009955BC /* [T]NLC Knowledge.storyboard */; };
 		E0FA6132222C07DD009955BC /* TestNLCKnowledge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6131222C07DD009955BC /* TestNLCKnowledge.swift */; };
-		E0FA6135222C084F009955BC /* [T]Parliamentary Procedure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA6134222C084F009955BC /* [T]Parliamentary Procedure.storyboard */; };
-		E0FA6137222C0897009955BC /* TestParliamentaryProcedure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6136222C0897009955BC /* TestParliamentaryProcedure.swift */; };
 		E0FA6139222C08C6009955BC /* [T]History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA6138222C08C6009955BC /* [T]History.storyboard */; };
 		E0FA613B222C08E3009955BC /* [T]National Chapter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA613A222C08E3009955BC /* [T]National Chapter.storyboard */; };
-		E0FA613D222C08FF009955BC /* [T]Fun Facts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA613C222C08FF009955BC /* [T]Fun Facts.storyboard */; };
+		E0FA613D222C08FF009955BC /* [T]Business Skills.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA613C222C08FF009955BC /* [T]Business Skills.storyboard */; };
 		E0FA613F222C09AB009955BC /* TestHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA613E222C09AB009955BC /* TestHistory.swift */; };
 		E0FA6141222C09C4009955BC /* TestNationalChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6140222C09C4009955BC /* TestNationalChapter.swift */; };
-		E0FA6143222C09DE009955BC /* TestFunFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6142222C09DE009955BC /* TestFunFacts.swift */; };
-		E0FA6145222C0B28009955BC /* [S]Business Etiquette.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA6144222C0B28009955BC /* [S]Business Etiquette.storyboard */; };
 		E0FA6147222C0B3C009955BC /* [S]NLC Knowledge.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA6146222C0B3C009955BC /* [S]NLC Knowledge.storyboard */; };
-		E0FA6149222C0B53009955BC /* [S]Parliamentary Procedure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA6148222C0B53009955BC /* [S]Parliamentary Procedure.storyboard */; };
 		E0FA614B222C0B65009955BC /* [S]History.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA614A222C0B65009955BC /* [S]History.storyboard */; };
 		E0FA614D222C0B88009955BC /* [S]National Chapter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA614C222C0B88009955BC /* [S]National Chapter.storyboard */; };
-		E0FA614F222C0B98009955BC /* [S]Fun Facts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA614E222C0B98009955BC /* [S]Fun Facts.storyboard */; };
+		E0FA614F222C0B98009955BC /* [S]Business Skills.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0FA614E222C0B98009955BC /* [S]Business Skills.storyboard */; };
+		E0FA6151222CE849009955BC /* FlashcardsNLCKnowledge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6150222CE849009955BC /* FlashcardsNLCKnowledge.swift */; };
+		E0FA6153222CE90A009955BC /* WebsitesNLCKnowledge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6152222CE90A009955BC /* WebsitesNLCKnowledge.swift */; };
+		E0FA6155222CF084009955BC /* FlashcardsHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6154222CF084009955BC /* FlashcardsHistory.swift */; };
+		E0FA6157222CF300009955BC /* WebsitesHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6156222CF300009955BC /* WebsitesHistory.swift */; };
+		E0FA6159222D09C8009955BC /* Results2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FA6158222D09C8009955BC /* Results2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,14 +104,11 @@
 		3B308337F1EB5A8BF5B11BB0 /* Pods-FBLA101.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLA101.debug.xcconfig"; path = "Target Support Files/Pods-FBLA101/Pods-FBLA101.debug.xcconfig"; sourceTree = "<group>"; };
 		4CDA43AE80E28679479EED4E /* Pods_FBLA101.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBLA101.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF78F493833BA28B72D791 /* Pods-FBLA101.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBLA101.release.xcconfig"; path = "Target Support Files/Pods-FBLA101/Pods-FBLA101.release.xcconfig"; sourceTree = "<group>"; };
-		E002E8C9221C441B0004D98B /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
-		E002E8CB221C45C30004D98B /* VideosCyberSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosCyberSecurity.swift; sourceTree = "<group>"; };
 		E002E8CE22220BB60004D98B /* [S]Competitive Events.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]Competitive Events.storyboard"; sourceTree = "<group>"; };
-		E002E8D022262FB90004D98B /* WebsitesCyberSecurity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsitesCyberSecurity.swift; sourceTree = "<group>"; };
+		E002E8D022262FB90004D98B /* WebsitesCompetitiveEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsitesCompetitiveEvents.swift; sourceTree = "<group>"; };
 		E002E8D2222651A50004D98B /* FlashcardsCompetitiveEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsCompetitiveEvents.swift; sourceTree = "<group>"; };
 		E039AC64220179DD008A76BE /* FBLA101.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBLA101.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E039AC67220179DD008A76BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E039AC69220179DD008A76BE /* StudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewController.swift; sourceTree = "<group>"; };
 		E039AC6C220179DD008A76BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E039AC6F220179DD008A76BE /* FBLAPrep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FBLAPrep.xcdatamodel; sourceTree = "<group>"; };
 		E039AC71220179DF008A76BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,19 +120,20 @@
 		E039AC86220179DF008A76BE /* FBLA101UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBLA101UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E039AC8A220179DF008A76BE /* FBLAPrepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBLAPrepUITests.swift; sourceTree = "<group>"; };
 		E039AC8C220179DF008A76BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E080D20B222D2036006ADBAA /* FlashcardsBusinessSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsBusinessSkills.swift; sourceTree = "<group>"; };
+		E080D20D222D22CE006ADBAA /* WebsitesBusinessSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsitesBusinessSkills.swift; sourceTree = "<group>"; };
 		E094CD4F222B7892008D23CE /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
 		E094CD51222B8AA9008D23CE /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
-		E0A90B8A221B48BC0079D883 /* NewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTableViewCell.swift; sourceTree = "<group>"; };
 		E0A90B8C221B79670079D883 /* ButtonAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimations.swift; sourceTree = "<group>"; };
 		E0A90B8E221B7E8A0079D883 /* ApplyShadows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyShadows.swift; sourceTree = "<group>"; };
 		E0A90B93221B8E060079D883 /* BigBlackBear.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BigBlackBear.ttf; sourceTree = "<group>"; };
-		E0A90B97221BEC1A0079D883 /* NewVideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVideoCell.swift; sourceTree = "<group>"; };
 		E0D4D6D12227BD1100B8EA3F /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
 		E0D4D6D3222862BC00B8EA3F /* AnimatedTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBar.swift; sourceTree = "<group>"; };
 		E0D4D6D522287B8D00B8EA3F /* [T]Competitive Events.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[T]Competitive Events.storyboard"; sourceTree = "<group>"; };
-		E0D4D6D72228866000B8EA3F /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		E0D4D6D92228B57B00B8EA3F /* TestCompetitiveEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCompetitiveEvents.swift; sourceTree = "<group>"; };
 		E0D4D6DB2228FF6700B8EA3F /* GlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalVariables.swift; sourceTree = "<group>"; };
+		E0D57F6A222D10E80073EB2E /* FlashcardsNationalChapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsNationalChapter.swift; sourceTree = "<group>"; };
+		E0D57F6C222D12BB0073EB2E /* WebsitesNationalChapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsitesNationalChapter.swift; sourceTree = "<group>"; };
 		E0FA35D62229CE1700D61581 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		E0FA35D8222A641F00D61581 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E0FA35E0222B238600D61581 /* FBLA101 Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FBLA101 Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,24 +143,23 @@
 		E0FA35E9222B238600D61581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0FA35F1222B725C00D61581 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E0FA6129222BF83B009955BC /* TestSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSelection.swift; sourceTree = "<group>"; };
-		E0FA612B222BFE4A009955BC /* [T]Business Etiquette.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[T]Business Etiquette.storyboard"; sourceTree = "<group>"; };
-		E0FA612D222BFEAC009955BC /* TestBusinessEtiquette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBusinessEtiquette.swift; sourceTree = "<group>"; };
+		E0FA612D222BFEAC009955BC /* TestBusinessSkills.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBusinessSkills.swift; sourceTree = "<group>"; };
 		E0FA612F222C07A7009955BC /* [T]NLC Knowledge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[T]NLC Knowledge.storyboard"; sourceTree = "<group>"; };
 		E0FA6131222C07DD009955BC /* TestNLCKnowledge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNLCKnowledge.swift; sourceTree = "<group>"; };
-		E0FA6134222C084F009955BC /* [T]Parliamentary Procedure.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[T]Parliamentary Procedure.storyboard"; sourceTree = "<group>"; };
-		E0FA6136222C0897009955BC /* TestParliamentaryProcedure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestParliamentaryProcedure.swift; sourceTree = "<group>"; };
 		E0FA6138222C08C6009955BC /* [T]History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[T]History.storyboard"; sourceTree = "<group>"; };
 		E0FA613A222C08E3009955BC /* [T]National Chapter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[T]National Chapter.storyboard"; sourceTree = "<group>"; };
-		E0FA613C222C08FF009955BC /* [T]Fun Facts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[T]Fun Facts.storyboard"; sourceTree = "<group>"; };
+		E0FA613C222C08FF009955BC /* [T]Business Skills.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[T]Business Skills.storyboard"; sourceTree = "<group>"; };
 		E0FA613E222C09AB009955BC /* TestHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHistory.swift; sourceTree = "<group>"; };
 		E0FA6140222C09C4009955BC /* TestNationalChapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNationalChapter.swift; sourceTree = "<group>"; };
-		E0FA6142222C09DE009955BC /* TestFunFacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFunFacts.swift; sourceTree = "<group>"; };
-		E0FA6144222C0B28009955BC /* [S]Business Etiquette.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]Business Etiquette.storyboard"; sourceTree = "<group>"; };
 		E0FA6146222C0B3C009955BC /* [S]NLC Knowledge.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]NLC Knowledge.storyboard"; sourceTree = "<group>"; };
-		E0FA6148222C0B53009955BC /* [S]Parliamentary Procedure.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]Parliamentary Procedure.storyboard"; sourceTree = "<group>"; };
 		E0FA614A222C0B65009955BC /* [S]History.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]History.storyboard"; sourceTree = "<group>"; };
 		E0FA614C222C0B88009955BC /* [S]National Chapter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]National Chapter.storyboard"; sourceTree = "<group>"; };
-		E0FA614E222C0B98009955BC /* [S]Fun Facts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]Fun Facts.storyboard"; sourceTree = "<group>"; };
+		E0FA614E222C0B98009955BC /* [S]Business Skills.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "[S]Business Skills.storyboard"; sourceTree = "<group>"; };
+		E0FA6150222CE849009955BC /* FlashcardsNLCKnowledge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsNLCKnowledge.swift; sourceTree = "<group>"; };
+		E0FA6152222CE90A009955BC /* WebsitesNLCKnowledge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsitesNLCKnowledge.swift; sourceTree = "<group>"; };
+		E0FA6154222CF084009955BC /* FlashcardsHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardsHistory.swift; sourceTree = "<group>"; };
+		E0FA6156222CF300009955BC /* WebsitesHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsitesHistory.swift; sourceTree = "<group>"; };
+		E0FA6158222D09C8009955BC /* Results2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,18 +221,14 @@
 				E039AC6B220179DD008A76BE /* Main.storyboard */,
 				E002E8CE22220BB60004D98B /* [S]Competitive Events.storyboard */,
 				E0D4D6D522287B8D00B8EA3F /* [T]Competitive Events.storyboard */,
-				E0FA612B222BFE4A009955BC /* [T]Business Etiquette.storyboard */,
 				E0FA612F222C07A7009955BC /* [T]NLC Knowledge.storyboard */,
-				E0FA6134222C084F009955BC /* [T]Parliamentary Procedure.storyboard */,
 				E0FA6138222C08C6009955BC /* [T]History.storyboard */,
 				E0FA613A222C08E3009955BC /* [T]National Chapter.storyboard */,
-				E0FA613C222C08FF009955BC /* [T]Fun Facts.storyboard */,
-				E0FA6144222C0B28009955BC /* [S]Business Etiquette.storyboard */,
+				E0FA613C222C08FF009955BC /* [T]Business Skills.storyboard */,
 				E0FA6146222C0B3C009955BC /* [S]NLC Knowledge.storyboard */,
-				E0FA6148222C0B53009955BC /* [S]Parliamentary Procedure.storyboard */,
 				E0FA614A222C0B65009955BC /* [S]History.storyboard */,
 				E0FA614C222C0B88009955BC /* [S]National Chapter.storyboard */,
-				E0FA614E222C0B98009955BC /* [S]Fun Facts.storyboard */,
+				E0FA614E222C0B98009955BC /* [S]Business Skills.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -247,7 +237,6 @@
 			isa = PBXGroup;
 			children = (
 				E039AC66220179DD008A76BE /* FBLA101 */,
-				E0FA6122222BE5F1009955BC /* Maybe Trash */,
 				E039AC7E220179DF008A76BE /* FBLAPrepTests */,
 				E039AC89220179DF008A76BE /* FBLAPrepUITests */,
 				E0FA35E3222B238600D61581 /* FBLA101 Widget */,
@@ -278,7 +267,6 @@
 				E0FA6125222BE71E009955BC /* Tests */,
 				E0FA6126222BE72B009955BC /* Flashcards */,
 				E0FA6124222BE6C5009955BC /* Websites */,
-				E0FA6123222BE6A8009955BC /* Videos */,
 				E0FA6128222BE82C009955BC /* Stats+Settings */,
 				E0FA6121222BE560009955BC /* Design+Animations */,
 				E0FA6127222BE75A009955BC /* Other */,
@@ -344,30 +332,14 @@
 			path = "Design+Animations";
 			sourceTree = "<group>";
 		};
-		E0FA6122222BE5F1009955BC /* Maybe Trash */ = {
-			isa = PBXGroup;
-			children = (
-				E0D4D6D72228866000B8EA3F /* TestViewController.swift */,
-				E0A90B8A221B48BC0079D883 /* NewTableViewCell.swift */,
-				E039AC69220179DD008A76BE /* StudyViewController.swift */,
-			);
-			path = "Maybe Trash";
-			sourceTree = "<group>";
-		};
-		E0FA6123222BE6A8009955BC /* Videos */ = {
-			isa = PBXGroup;
-			children = (
-				E002E8CB221C45C30004D98B /* VideosCyberSecurity.swift */,
-				E002E8C9221C441B0004D98B /* Video.swift */,
-				E0A90B97221BEC1A0079D883 /* NewVideoCell.swift */,
-			);
-			path = Videos;
-			sourceTree = "<group>";
-		};
 		E0FA6124222BE6C5009955BC /* Websites */ = {
 			isa = PBXGroup;
 			children = (
-				E002E8D022262FB90004D98B /* WebsitesCyberSecurity.swift */,
+				E002E8D022262FB90004D98B /* WebsitesCompetitiveEvents.swift */,
+				E0FA6152222CE90A009955BC /* WebsitesNLCKnowledge.swift */,
+				E0FA6156222CF300009955BC /* WebsitesHistory.swift */,
+				E0D57F6C222D12BB0073EB2E /* WebsitesNationalChapter.swift */,
+				E080D20D222D22CE006ADBAA /* WebsitesBusinessSkills.swift */,
 			);
 			path = Websites;
 			sourceTree = "<group>";
@@ -378,12 +350,11 @@
 				E0FA35D62229CE1700D61581 /* Results.swift */,
 				E0D4D6D92228B57B00B8EA3F /* TestCompetitiveEvents.swift */,
 				E0FA6129222BF83B009955BC /* TestSelection.swift */,
-				E0FA612D222BFEAC009955BC /* TestBusinessEtiquette.swift */,
+				E0FA612D222BFEAC009955BC /* TestBusinessSkills.swift */,
 				E0FA6131222C07DD009955BC /* TestNLCKnowledge.swift */,
-				E0FA6136222C0897009955BC /* TestParliamentaryProcedure.swift */,
 				E0FA613E222C09AB009955BC /* TestHistory.swift */,
 				E0FA6140222C09C4009955BC /* TestNationalChapter.swift */,
-				E0FA6142222C09DE009955BC /* TestFunFacts.swift */,
+				E0FA6158222D09C8009955BC /* Results2.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -392,6 +363,10 @@
 			isa = PBXGroup;
 			children = (
 				E002E8D2222651A50004D98B /* FlashcardsCompetitiveEvents.swift */,
+				E0FA6150222CE849009955BC /* FlashcardsNLCKnowledge.swift */,
+				E0FA6154222CF084009955BC /* FlashcardsHistory.swift */,
+				E0D57F6A222D10E80073EB2E /* FlashcardsNationalChapter.swift */,
+				E080D20B222D2036006ADBAA /* FlashcardsBusinessSkills.swift */,
 			);
 			path = Flashcards;
 			sourceTree = "<group>";
@@ -546,20 +521,16 @@
 				E0FA614B222C0B65009955BC /* [S]History.storyboard in Resources */,
 				E039AC75220179DF008A76BE /* LaunchScreen.storyboard in Resources */,
 				E002E8CF22220BB60004D98B /* [S]Competitive Events.storyboard in Resources */,
-				E0FA6145222C0B28009955BC /* [S]Business Etiquette.storyboard in Resources */,
-				E0FA612C222BFE4A009955BC /* [T]Business Etiquette.storyboard in Resources */,
 				E039AC72220179DF008A76BE /* Assets.xcassets in Resources */,
 				E039AC6D220179DD008A76BE /* Main.storyboard in Resources */,
 				E0D4D6D622287B8D00B8EA3F /* [T]Competitive Events.storyboard in Resources */,
-				E0FA613D222C08FF009955BC /* [T]Fun Facts.storyboard in Resources */,
+				E0FA613D222C08FF009955BC /* [T]Business Skills.storyboard in Resources */,
 				E0FA6130222C07A7009955BC /* [T]NLC Knowledge.storyboard in Resources */,
-				E0FA6149222C0B53009955BC /* [S]Parliamentary Procedure.storyboard in Resources */,
 				E0FA6147222C0B3C009955BC /* [S]NLC Knowledge.storyboard in Resources */,
 				E0A90B94221B8E090079D883 /* BigBlackBear.ttf in Resources */,
 				E0FA6139222C08C6009955BC /* [T]History.storyboard in Resources */,
-				E0FA6135222C084F009955BC /* [T]Parliamentary Procedure.storyboard in Resources */,
 				E0FA613B222C08E3009955BC /* [T]National Chapter.storyboard in Resources */,
-				E0FA614F222C0B98009955BC /* [S]Fun Facts.storyboard in Resources */,
+				E0FA614F222C0B98009955BC /* [S]Business Skills.storyboard in Resources */,
 				E0FA35F2222B725C00D61581 /* GoogleService-Info.plist in Resources */,
 				E0FA614D222C0B88009955BC /* [S]National Chapter.storyboard in Resources */,
 			);
@@ -648,33 +619,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0D4D6D82228866000B8EA3F /* TestViewController.swift in Sources */,
+				E0FA6153222CE90A009955BC /* WebsitesNLCKnowledge.swift in Sources */,
 				E0A90B8D221B79680079D883 /* ButtonAnimations.swift in Sources */,
 				E0D4D6D4222862BC00B8EA3F /* AnimatedTabBar.swift in Sources */,
-				E002E8CC221C45C30004D98B /* VideosCyberSecurity.swift in Sources */,
-				E0A90B98221BEC1A0079D883 /* NewVideoCell.swift in Sources */,
 				E0D4D6D22227BD1100B8EA3F /* StatisticsViewController.swift in Sources */,
-				E039AC6A220179DD008A76BE /* StudyViewController.swift in Sources */,
 				E002E8D3222651A50004D98B /* FlashcardsCompetitiveEvents.swift in Sources */,
-				E0FA612E222BFEAC009955BC /* TestBusinessEtiquette.swift in Sources */,
+				E0FA612E222BFEAC009955BC /* TestBusinessSkills.swift in Sources */,
 				E0A90B8F221B7E8A0079D883 /* ApplyShadows.swift in Sources */,
 				E0D4D6DA2228B57B00B8EA3F /* TestCompetitiveEvents.swift in Sources */,
 				E0FA6141222C09C4009955BC /* TestNationalChapter.swift in Sources */,
+				E0FA6159222D09C8009955BC /* Results2.swift in Sources */,
+				E080D20C222D2036006ADBAA /* FlashcardsBusinessSkills.swift in Sources */,
 				E094CD52222B8AA9008D23CE /* signUpViewController.swift in Sources */,
 				E0FA612A222BF83B009955BC /* TestSelection.swift in Sources */,
+				E0FA6157222CF300009955BC /* WebsitesHistory.swift in Sources */,
+				E0D57F6D222D12BB0073EB2E /* WebsitesNationalChapter.swift in Sources */,
+				E080D20E222D22CE006ADBAA /* WebsitesBusinessSkills.swift in Sources */,
 				E0D4D6DC2228FF6700B8EA3F /* GlobalVariables.swift in Sources */,
 				E0FA613F222C09AB009955BC /* TestHistory.swift in Sources */,
-				E002E8D122262FB90004D98B /* WebsitesCyberSecurity.swift in Sources */,
+				E002E8D122262FB90004D98B /* WebsitesCompetitiveEvents.swift in Sources */,
+				E0D57F6B222D10E80073EB2E /* FlashcardsNationalChapter.swift in Sources */,
 				E0FA6132222C07DD009955BC /* TestNLCKnowledge.swift in Sources */,
+				E0FA6155222CF084009955BC /* FlashcardsHistory.swift in Sources */,
 				E039AC68220179DD008A76BE /* AppDelegate.swift in Sources */,
-				E0FA6143222C09DE009955BC /* TestFunFacts.swift in Sources */,
 				E094CD50222B7892008D23CE /* loginViewController.swift in Sources */,
-				E0FA6137222C0897009955BC /* TestParliamentaryProcedure.swift in Sources */,
-				E002E8CA221C441B0004D98B /* Video.swift in Sources */,
 				E0FA35D72229CE1700D61581 /* Results.swift in Sources */,
-				E0A90B8B221B48BC0079D883 /* NewTableViewCell.swift in Sources */,
 				E039AC70220179DD008A76BE /* FBLAPrep.xcdatamodeld in Sources */,
 				E0FA35D9222A642000D61581 /* SettingsViewController.swift in Sources */,
+				E0FA6151222CE849009955BC /* FlashcardsNLCKnowledge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

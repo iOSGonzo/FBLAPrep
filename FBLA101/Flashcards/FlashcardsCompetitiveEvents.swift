@@ -30,6 +30,7 @@ class FlashcardsCompetitiveEvents: UIViewController{
         progressView.subviews[1].clipsToBounds = true
         
         
+        
 //      set flashcard face to currentFlashcard (first card) on viewDidLoad()
         let img = UIImage(named: frontImages[currentFlashcard])
         cardIMG.setImage(img, for: .normal)
@@ -42,11 +43,11 @@ class FlashcardsCompetitiveEvents: UIViewController{
     var currentFlashcard = 0
     
 //  currentProgress stores the amount of parts the progress bar is split into, as well as the current progress the bar is at
-    let currentProgress = Progress(totalUnitCount: 10)
+    let currentProgress = Progress(totalUnitCount: 5)
     
 //  all flashcard images in array
-    var frontImages = ["FCFrontCyber0","FCFrontCyber1","FCFrontCyber2","FCFrontCyber3","FCFrontCyber4","FCFrontCyber5","FCFrontCyber6","FCFrontCyber7","FCFrontCyber8","FCFrontCyber9","FCEnd"]
-    var backImages = ["FCBackCyber0","FCBackCyber1","FCBackCyber2","FCBackCyber3","FCBackCyber4","FCBackCyber5","FCBackCyber6","FCBackCyber7","FCBackCyber8","FCBackCyber9","FCEnd"]
+    var frontImages = ["FCF1","FCF2","FCF3","FCF4","FCF5","FCEnd"]
+    var backImages = ["FCB1","FCB2","FCB3","FCB4","FCB5","FCEnd"]
     
 //  flipping animation on flashcard tapped
     @IBAction func frontTapped(_ sender: Any){
@@ -65,7 +66,7 @@ class FlashcardsCompetitiveEvents: UIViewController{
     
     
     @IBAction func nextFlashcardTapped(_ sender: UIButton){
-        if currentFlashcard < 9{
+        if currentFlashcard < 4{
             
             //button spring animation, derives from ButtonAnimations.swift
             sender.pulsate()
@@ -86,7 +87,7 @@ class FlashcardsCompetitiveEvents: UIViewController{
             self.progressView.setProgress(progressFloat, animated: true)
             
             
-        } else if currentFlashcard == 9{
+        } else if currentFlashcard == 4{
             
             //      sets isFlipped to false, meaning the back side isn't showing when we transition to the next card
             isFlipped = false

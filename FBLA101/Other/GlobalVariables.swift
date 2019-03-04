@@ -14,7 +14,7 @@ import Foundation
 //counters
 var globalTestsTaken = 0
 var globalFlashcardsStudied = 0
-var globalVideosWatched = 0
+var globalWebsitesVisited = 0
 
 //percentage total tests
 

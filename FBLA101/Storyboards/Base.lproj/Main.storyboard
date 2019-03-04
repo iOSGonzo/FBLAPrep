@@ -114,40 +114,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="502"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRy-S3-Y11">
-                                <rect key="frame" x="20" y="90" width="335" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="etiquetteBtn-2"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zfV-PR-jM5">
-                                <rect key="frame" x="20" y="156" width="335" height="60"/>
+                                <rect key="frame" x="7" y="110" width="360" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="nlcKnowledgeBtn-2"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qbw-Ne-Bbx">
-                                <rect key="frame" x="20" y="222" width="335" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="parliamentBtn-2"/>
+                                <state key="normal" backgroundImage="nlcKnowledgeBtn-3"/>
+                                <connections>
+                                    <segue destination="wK9-Il-6xH" kind="show" id="U1B-7V-hop"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGU-bB-3g8">
-                                <rect key="frame" x="20" y="288" width="335" height="60"/>
+                                <rect key="frame" x="7" y="206" width="360" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="historyBtn-2"/>
+                                <state key="normal" backgroundImage="historyBtn-3"/>
+                                <connections>
+                                    <segue destination="NaB-R1-nmC" kind="show" id="eEB-tW-G1T"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TAx-4Z-Sl5">
-                                <rect key="frame" x="20" y="354" width="335" height="60"/>
+                                <rect key="frame" x="7" y="302" width="360" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="nationchapterBtn-2"/>
+                                <state key="normal" backgroundImage="nationchapterBtn-3"/>
+                                <connections>
+                                    <segue destination="Yvy-Cd-mSc" kind="show" id="T05-6r-yc7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K0T-AP-l6j">
-                                <rect key="frame" x="20" y="420" width="335" height="60"/>
+                                <rect key="frame" x="7" y="398" width="360" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="funFactsBtn-2"/>
+                                <state key="normal" backgroundImage="businessSkillsBtn"/>
+                                <connections>
+                                    <segue destination="nXS-xc-B3U" kind="show" id="vbs-Zz-Ijf"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7v-0D-K89">
-                                <rect key="frame" x="20" y="24" width="335" height="60"/>
+                                <rect key="frame" x="7" y="14" width="360" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="competitiveEventsBtn-2"/>
+                                <state key="normal" backgroundImage="competitiveEventsBtn-3"/>
                                 <connections>
                                     <segue destination="OdS-pp-mck" kind="show" id="ANR-O9-2wz"/>
                                 </connections>
@@ -170,7 +172,7 @@
                 <viewControllerPlaceholder storyboardName="[S]Competitive Events" id="OdS-pp-mck" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m5f-eA-lit" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3857" y="-287"/>
+            <point key="canvasLocation" x="3659" y="-180"/>
         </scene>
         <!--Animated Tab Bar-->
         <scene sceneID="Jup-XO-OWc">
@@ -226,57 +228,41 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8a-us-YgZ">
-                                <rect key="frame" x="20" y="24" width="335" height="60"/>
+                                <rect key="frame" x="7" y="14" width="360" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="competitiveEventsBtn-2"/>
+                                <state key="normal" backgroundImage="competitiveEventsBtn-3"/>
                                 <connections>
                                     <segue destination="Wlk-Ku-EyA" kind="show" id="STg-HN-Nbn"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6E-In-E1n">
-                                <rect key="frame" x="20" y="90" width="335" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="etiquetteBtn-2"/>
-                                <connections>
-                                    <segue destination="Cg1-Tv-DAC" kind="show" id="Zmk-08-wxU"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKa-So-2AV">
-                                <rect key="frame" x="20" y="156" width="335" height="60"/>
+                                <rect key="frame" x="7" y="110" width="360" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="nlcKnowledgeBtn-2"/>
+                                <state key="normal" backgroundImage="nlcKnowledgeBtn-3"/>
                                 <connections>
                                     <segue destination="u0y-zZ-dYC" kind="show" id="Fk0-QK-m3S"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWB-jO-iYu">
-                                <rect key="frame" x="20" y="222" width="335" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="parliamentBtn-2"/>
-                                <connections>
-                                    <segue destination="7ys-KV-3Vd" kind="show" id="8z9-d5-0xC"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqE-zu-gfN">
-                                <rect key="frame" x="20" y="288" width="335" height="60"/>
+                                <rect key="frame" x="7" y="206" width="360" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="historyBtn-2"/>
+                                <state key="normal" backgroundImage="historyBtn-3"/>
                                 <connections>
                                     <segue destination="I5a-wZ-xaD" kind="show" id="LKk-Ti-XQN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6m-IM-hWs">
-                                <rect key="frame" x="20" y="354" width="335" height="60"/>
+                                <rect key="frame" x="7" y="302" width="360" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="nationchapterBtn-2"/>
+                                <state key="normal" backgroundImage="nationchapterBtn-3"/>
                                 <connections>
                                     <segue destination="haw-RR-Z0D" kind="show" id="j01-OR-l59"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pH9-NS-vc4">
-                                <rect key="frame" x="20" y="420" width="335" height="60"/>
+                                <rect key="frame" x="7" y="398" width="360" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="funFactsBtn-2"/>
+                                <state key="normal" backgroundImage="businessSkillsBtn"/>
                                 <connections>
                                     <segue destination="xF9-2n-wuW" kind="show" id="Bmm-Ge-rDL"/>
                                 </connections>
@@ -339,7 +325,7 @@
                                     <constraint firstAttribute="height" constant="90" id="Ty6-eT-fMZ"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="videoWatched" translatesAutoresizingMaskIntoConstraints="NO" id="8ei-l2-bCD">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="websitesVisited" translatesAutoresizingMaskIntoConstraints="NO" id="8ei-l2-bCD">
                                 <rect key="frame" x="19" y="337" width="336" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="ULc-cq-tVW"/>
@@ -793,14 +779,6 @@ This privacy policy page was created at privacypolicytemplate.net and modified/g
             </objects>
             <point key="canvasLocation" x="3461" y="587"/>
         </scene>
-        <!--[T]Business Etiquette-->
-        <scene sceneID="hvH-fY-1dY">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="[" storyboardName="[T]Business Etiquette" id="Cg1-Tv-DAC" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="QFv-UZ-1Rx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3464" y="655"/>
-        </scene>
         <!--[T]NLC Knowledge-->
         <scene sceneID="Hu3-k4-dry">
             <objects>
@@ -808,14 +786,6 @@ This privacy policy page was created at privacypolicytemplate.net and modified/g
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z3E-2C-YPN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3458" y="713"/>
-        </scene>
-        <!--[T]Parliamentary Procedure-->
-        <scene sceneID="EUh-PT-AI7">
-            <objects>
-                <viewControllerPlaceholder storyboardName="[T]Parliamentary Procedure" id="7ys-KV-3Vd" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jVI-Fj-CVU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3467" y="763"/>
         </scene>
         <!--[T]History-->
         <scene sceneID="ZhZ-Yf-L9H">
@@ -833,10 +803,10 @@ This privacy policy page was created at privacypolicytemplate.net and modified/g
             </objects>
             <point key="canvasLocation" x="3397" y="890"/>
         </scene>
-        <!--[T]Fun Facts-->
+        <!--[T]Business Skills-->
         <scene sceneID="d3J-gw-f0D">
             <objects>
-                <viewControllerPlaceholder storyboardName="[T]Fun Facts" id="xF9-2n-wuW" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="[T]Business Skills" id="xF9-2n-wuW" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Db4-6A-vtN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3363" y="955"/>
@@ -1081,23 +1051,53 @@ Built with </string>
             </objects>
             <point key="canvasLocation" x="1200.8" y="-734.48275862068976"/>
         </scene>
+        <!--[S]NLC Knowledge-->
+        <scene sceneID="rKf-kV-6HO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="[S]NLC Knowledge" id="wK9-Il-6xH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="35T-Op-Cxf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3642" y="-71"/>
+        </scene>
+        <!--[S]History-->
+        <scene sceneID="rFC-2x-BPi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="[S]History" id="NaB-R1-nmC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r1P-4i-avm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3596" y="-24"/>
+        </scene>
+        <!--[S]National Chapter-->
+        <scene sceneID="qhj-cW-IDR">
+            <objects>
+                <viewControllerPlaceholder storyboardName="[S]National Chapter" id="Yvy-Cd-mSc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d7T-z9-TA3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3643" y="21"/>
+        </scene>
+        <!--[S]Business Skills-->
+        <scene sceneID="pJt-RI-lUy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="[S]Business Skills" id="nXS-xc-B3U" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="udv-nQ-JJL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3596" y="106"/>
+        </scene>
     </scenes>
     <resources>
         <image name="CreateAccountBtn" width="1104" height="248"/>
         <image name="book" width="30" height="30"/>
-        <image name="competitiveEventsBtn-2" width="1372" height="272"/>
+        <image name="businessSkillsBtn" width="1372" height="352"/>
+        <image name="competitiveEventsBtn-3" width="1372" height="352"/>
         <image name="createAccountHeader" width="2995" height="960"/>
         <image name="emailTextField" width="1072" height="168"/>
-        <image name="etiquetteBtn-2" width="1372" height="272"/>
         <image name="fbla101LoginWhite" width="2460" height="585"/>
         <image name="flashcardSetsStudiedBG" width="1376" height="392"/>
-        <image name="funFactsBtn-2" width="1372" height="272"/>
-        <image name="historyBtn-2" width="1372" height="272"/>
+        <image name="historyBtn-3" width="1372" height="352"/>
         <image name="loginBtn" width="1104" height="248"/>
-        <image name="nationchapterBtn-2" width="1372" height="272"/>
-        <image name="nlcKnowledgeBtn-2" width="1372" height="272"/>
+        <image name="nationchapterBtn-3" width="1372" height="352"/>
+        <image name="nlcKnowledgeBtn-3" width="1372" height="352"/>
         <image name="overallTestingPercentageBG3" width="1376" height="572"/>
-        <image name="parliamentBtn-2" width="1372" height="272"/>
         <image name="passwordTextField" width="670" height="105"/>
         <image name="reportBugIcon" width="150" height="140"/>
         <image name="resetButton2" width="752" height="232"/>
@@ -1105,8 +1105,8 @@ Built with </string>
         <image name="stats" width="30" height="30"/>
         <image name="test" width="30" height="30"/>
         <image name="totalTestsTakenBG" width="1376" height="392"/>
-        <image name="usernameTextField" width="1072" height="168"/>
-        <image name="videoWatched" width="1376" height="392"/>
+        <image name="usernameTextField" width="670" height="105"/>
+        <image name="websitesVisited" width="1376" height="392"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="ZA6-OT-8vI"/>

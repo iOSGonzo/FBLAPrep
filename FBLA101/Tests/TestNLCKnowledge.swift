@@ -15,10 +15,10 @@ class TestNLCKnowledge: UIViewController{
     
     
     //array containing questions that will be displayed on the view
-    let questions = ["Which one of the following exposures associated with the spooling of sensitive reports for offline printing could be considered the most serious?","What is the Biba security model concerned with?","The Information Technology Security Evaluation Criteria (ITSEC) was written to address which one of the following that the Orange Book did not address?","What is a locking device that prevents unauthorized unplugging of cables from computer devices called?","Which one of the following is not a method to protect objects and the data within the objects?"]
+    let questions = ["Which city will NLC be hosted at this year?","Which city will NLC be hosted at in 2020?","When will NLC be hosted this year?","Which city will NLC be hosted at in 2021?","At NLC you get the opportunity to?"]
     
     //array containing options that will be displayed on the view (a,b,c,d)
-    let answers = [["other unauthorized copies of reports could be printed","sensitive data may be read by operators","data cannot be altered without authorization","output would be lost in case of system failure"],["integrity","confidentiality","reliability","availability"],["integrity and availability","integrity and confidentiality","confidentiality and availability","accessibility and confidentiality"],["cable trap","door delay","slot locks","preset locks"],["data mining","layering","abstraction","data hiding"]]
+    let answers = [["San Antonio","Baltimore","Anahiem","Seattle"],["Salt Lake City","New York","Miami","Boise"],["June 29–July 2","August 10-14","September 1-4","June 20-24"],["Anaheim","Portland","Denver","Las Vegas"],["Everything mentioned","create","lead","inspire"]]
     
     
     //variable that keeps track of current question

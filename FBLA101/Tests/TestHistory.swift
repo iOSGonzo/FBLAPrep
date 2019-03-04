@@ -14,10 +14,10 @@ class TestHistory: UIViewController{
     
     
     //array containing questions that will be displayed on the view
-    let questions = ["Which one of the following exposures associated with the spooling of sensitive reports for offline printing could be considered the most serious?","What is the Biba security model concerned with?","The Information Technology Security Evaluation Criteria (ITSEC) was written to address which one of the following that the Orange Book did not address?","What is a locking device that prevents unauthorized unplugging of cables from computer devices called?","Which one of the following is not a method to protect objects and the data within the objects?"]
+    let questions = ["Who is the founder of FBLA?","When was the concept of FBLA developed?","When was the first FBLA chapter created?","When did FBLA first top 200,000 members?","Which state became the first State chapter in 1947?"]
     
     //array containing options that will be displayed on the view (a,b,c,d)
-    let answers = [["other unauthorized copies of reports could be printed","sensitive data may be read by operators","data cannot be altered without authorization","output would be lost in case of system failure"],["integrity","confidentiality","reliability","availability"],["integrity and availability","integrity and confidentiality","confidentiality and availability","accessibility and confidentiality"],["cable trap","door delay","slot locks","preset locks"],["data mining","layering","abstraction","data hiding"]]
+    let answers = [["Hamden L. Forkner","Elon Musk","Chris Kimbell","Henry C. Groseclose"],["1937","1994","1959","2005"],["1942","2019","1990","1940"],["1987","2004","2010","1980"],["iowa","washington","new york","texas"]]
     
     
     //variable that keeps track of current question

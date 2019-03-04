@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y1Q-TL-7HH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BigBlackBear.ttf">
+            <string>BigBlackBear</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Study Resources-->
+        <scene sceneID="gNE-oY-4Om">
+            <objects>
+                <viewController storyboardIdentifier="ChooseTypeViewController" title="Study Resources" id="y1Q-TL-7HH" customClass="ViewController" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zCG-gZ-rHv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGE-lo-HuO">
+                                <rect key="frame" x="20" y="180" width="335" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="g7w-3u-Xvr"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="websiteSelectionBtn-3"/>
+                                <connections>
+                                    <segue destination="hVI-gl-CSR" kind="show" id="qN9-LT-0CD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oB5-Zr-hHh">
+                                <rect key="frame" x="20" y="348" width="335" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="6KF-aF-tMy"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="flashcardSelectionBtn-3"/>
+                                <connections>
+                                    <segue destination="6Pm-1l-hoo" kind="show" id="zuw-Ya-bt2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.32156862749999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="KXX-Pa-gLg" firstAttribute="trailing" secondItem="oB5-Zr-hHh" secondAttribute="trailing" constant="20" id="YPK-0E-fUh"/>
+                            <constraint firstItem="oB5-Zr-hHh" firstAttribute="leading" secondItem="KXX-Pa-gLg" secondAttribute="leading" constant="20" id="YZL-Of-1h2"/>
+                            <constraint firstItem="YGE-lo-HuO" firstAttribute="leading" secondItem="KXX-Pa-gLg" secondAttribute="leading" constant="20" id="fPy-Ge-m4l"/>
+                            <constraint firstItem="oB5-Zr-hHh" firstAttribute="top" secondItem="YGE-lo-HuO" secondAttribute="bottom" constant="8" id="gNE-un-cPR"/>
+                            <constraint firstItem="KXX-Pa-gLg" firstAttribute="trailing" secondItem="YGE-lo-HuO" secondAttribute="trailing" constant="20" id="pIQ-mD-beG"/>
+                            <constraint firstItem="KXX-Pa-gLg" firstAttribute="bottom" secondItem="oB5-Zr-hHh" secondAttribute="bottom" constant="110" id="uMH-56-utk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="KXX-Pa-gLg"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Study Resources" largeTitleDisplayMode="never" id="pjI-jf-uah"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6XY-1A-XfO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4481" y="-215"/>
+        </scene>
+        <!--Video Resources-->
+        <scene sceneID="fD9-Uj-PK6">
+            <objects>
+                <viewController title="Website Resources" id="hVI-gl-CSR" userLabel="Video Resources" customClass="WebsitesBusinessSkills" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="eXK-9X-NHm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="linkHolderBG" translatesAutoresizingMaskIntoConstraints="NO" id="gIw-Qz-RHi">
+                                <rect key="frame" x="6" y="228" width="310" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElY-UJ-rmj">
+                                <rect key="frame" x="6" y="223" width="311" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="18"/>
+                                <state key="normal">
+                                    <string key="title">52 Types of Business Skills
+</string>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBg-Ot-tXm">
+                                <rect key="frame" x="317" y="227" width="53" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="linkButton"/>
+                                <connections>
+                                    <action selector="tapped:" destination="hVI-gl-CSR" eventType="touchUpInside" id="hnk-dZ-S4Q"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.32156862749999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="ySG-er-UBQ"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Website Resources" largeTitleDisplayMode="always" id="qzv-vK-79y"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dY3-sj-cua" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5350" y="-215"/>
+        </scene>
+        <!--Business Skills-->
+        <scene sceneID="dzR-UT-Nwl">
+            <objects>
+                <viewController id="6Pm-1l-hoo" customClass="FlashcardsBusinessSkills" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3yD-96-Wn9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="0o9-AZ-HFE" customClass="progressViewStyling" customModule="FBLA101" customModuleProvider="target">
+                                <rect key="frame" x="25" y="72" width="325" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="TtQ-dZ-de7"/>
+                                </constraints>
+                                <color key="progressTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" red="0.16862745100000001" green="0.2156862745" blue="0.3294117647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m9L-h6-svD">
+                                <rect key="frame" x="20" y="91" width="335" height="395"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="395" id="8HU-hf-2ad"/>
+                                </constraints>
+                                <state key="normal" image="flashcardFrontDemo"/>
+                                <connections>
+                                    <action selector="frontTapped:" destination="6Pm-1l-hoo" eventType="touchUpInside" id="AXk-rD-vYj"/>
+                                </connections>
+                            </button>
+                            <visualEffectView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cdh-al-tDe">
+                                <rect key="frame" x="31" y="192" width="313" height="192"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mS1-of-wAa">
+                                    <rect key="frame" x="0.0" y="0.0" width="313" height="192"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="disclaimerBG" translatesAutoresizingMaskIntoConstraints="NO" id="wLP-V8-bgw">
+                                            <rect key="frame" x="0.0" y="0.0" width="313" height="192"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZw-W7-75n">
+                                            <rect key="frame" x="29" y="140" width="256" height="35"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <state key="normal" image="disclaimerButton"/>
+                                            <connections>
+                                                <action selector="iUnderstand:" destination="6Pm-1l-hoo" eventType="touchUpInside" id="HjD-hl-HGh"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </view>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="192" id="eZC-yu-Zlz"/>
+                                </constraints>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBg-6y-5n5">
+                                <rect key="frame" x="147" y="488" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="SWa-ej-mOh"/>
+                                </constraints>
+                                <state key="normal" image="nextButtonRed"/>
+                                <connections>
+                                    <action selector="nextFlashcardTapped:" destination="6Pm-1l-hoo" eventType="touchUpInside" id="qIf-Sl-TCr"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8A-y2-0MP">
+                                <rect key="frame" x="152" y="488" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="hQr-NK-nYW"/>
+                                </constraints>
+                                <state key="normal" image="retryButton"/>
+                                <connections>
+                                    <action selector="retryButtonTapped:" destination="6Pm-1l-hoo" eventType="touchUpInside" id="eg4-9d-kC0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.32156862749999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IFZ-fe-co8" firstAttribute="trailing" secondItem="m9L-h6-svD" secondAttribute="trailing" constant="20" id="2fN-Bv-tJI"/>
+                            <constraint firstItem="IFZ-fe-co8" firstAttribute="trailing" secondItem="Cdh-al-tDe" secondAttribute="trailing" constant="31" id="5ao-ba-Hsb"/>
+                            <constraint firstItem="Cdh-al-tDe" firstAttribute="top" secondItem="0o9-AZ-HFE" secondAttribute="bottom" constant="106" id="Lws-s3-Agk"/>
+                            <constraint firstItem="eBg-6y-5n5" firstAttribute="leading" secondItem="IFZ-fe-co8" secondAttribute="leading" constant="147" id="Oib-Pw-C6b"/>
+                            <constraint firstItem="0o9-AZ-HFE" firstAttribute="top" secondItem="IFZ-fe-co8" secondAttribute="top" constant="8" id="R6Z-Uq-N9I"/>
+                            <constraint firstItem="IFZ-fe-co8" firstAttribute="trailing" secondItem="0o9-AZ-HFE" secondAttribute="trailing" constant="25" id="SOs-BW-Z7x"/>
+                            <constraint firstItem="m9L-h6-svD" firstAttribute="top" secondItem="0o9-AZ-HFE" secondAttribute="bottom" constant="5" id="Wk1-sF-R3d"/>
+                            <constraint firstItem="Cdh-al-tDe" firstAttribute="leading" secondItem="IFZ-fe-co8" secondAttribute="leading" constant="31" id="a5N-O1-wnH"/>
+                            <constraint firstItem="eBg-6y-5n5" firstAttribute="top" secondItem="m9L-h6-svD" secondAttribute="bottom" constant="2" id="fHP-ZB-FJd"/>
+                            <constraint firstItem="0o9-AZ-HFE" firstAttribute="leading" secondItem="IFZ-fe-co8" secondAttribute="leading" constant="25" id="fWW-jp-RHx"/>
+                            <constraint firstItem="IFZ-fe-co8" firstAttribute="trailing" secondItem="eBg-6y-5n5" secondAttribute="trailing" constant="148" id="jbg-6g-Bud"/>
+                            <constraint firstItem="IFZ-fe-co8" firstAttribute="trailing" secondItem="P8A-y2-0MP" secondAttribute="trailing" constant="153" id="mDT-uG-lMQ"/>
+                            <constraint firstItem="P8A-y2-0MP" firstAttribute="leading" secondItem="IFZ-fe-co8" secondAttribute="leading" constant="152" id="tEa-ny-4Zh"/>
+                            <constraint firstItem="m9L-h6-svD" firstAttribute="leading" secondItem="IFZ-fe-co8" secondAttribute="leading" constant="20" id="yhk-Uh-kme"/>
+                            <constraint firstItem="P8A-y2-0MP" firstAttribute="top" secondItem="m9L-h6-svD" secondAttribute="bottom" constant="2" id="zMR-RV-bFb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="IFZ-fe-co8"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Cdh-al-tDe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Business Skills" largeTitleDisplayMode="always" id="xXH-vr-J1c"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="cardIMG" destination="m9L-h6-svD" id="KUd-OZ-cjg"/>
+                        <outlet property="disclaimerWindow" destination="Cdh-al-tDe" id="R6b-q5-cCV"/>
+                        <outlet property="nextButton" destination="eBg-6y-5n5" id="bRF-pF-iYN"/>
+                        <outlet property="progressView" destination="0o9-AZ-HFE" id="GUa-2D-7ca"/>
+                        <outlet property="retryButton" destination="P8A-y2-0MP" id="acE-Td-t9W"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6eY-2X-5zo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4480.8000000000002" y="509.59520239880067"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="disclaimerBG" width="1296" height="824"/>
+        <image name="disclaimerButton" width="1024" height="140"/>
+        <image name="flashcardFrontDemo" width="1372" height="1612"/>
+        <image name="flashcardSelectionBtn-3" width="1029" height="504"/>
+        <image name="linkButton" width="117" height="117"/>
+        <image name="linkHolderBG" width="852" height="111"/>
+        <image name="nextButtonRed" width="156" height="156"/>
+        <image name="retryButton" width="268" height="268"/>
+        <image name="websiteSelectionBtn-3" width="1029" height="504"/>
+    </resources>
+</document>

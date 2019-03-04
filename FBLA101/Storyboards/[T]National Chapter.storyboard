@@ -23,22 +23,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="questionBG" translatesAutoresizingMaskIntoConstraints="NO" id="h3A-iN-kCS">
-                                <rect key="frame" x="20" y="27" width="335" height="250"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="250" id="iJg-Ld-And"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzt-ov-ojp">
-                                <rect key="frame" x="33" y="42" width="309" height="220"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="220" id="ki9-vv-KKi"/>
-                                </constraints>
-                                <string key="text">Which one of the following exposures associated with the spooling of sensitive reports for offline printing could be considered the most serious?</string>
-                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="18"/>
-                                <color key="textColor" red="0.1132046059" green="0.27296638490000003" blue="0.34903037549999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="Xti-6P-MSN">
                                 <rect key="frame" x="20" y="285" width="335" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -115,6 +99,25 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="QUY-yQ-Jgz">
+                                <rect key="frame" x="25" y="8" width="325" height="14"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="14" id="Vc0-e1-yEI"/>
+                                </constraints>
+                                <color key="progressTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="trackTintColor" red="0.16866556150000001" green="0.21411641219999999" blue="0.32921557740000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </progressView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T21-Tf-g4z">
+                                <rect key="frame" x="20" y="27" width="335" height="250"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzt-ov-ojp">
+                                <rect key="frame" x="33" y="242" width="309" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="BigBlackBear" family="Big Black Bear" pointSize="18"/>
+                                <color key="textColor" red="0.1132046059" green="0.27296638490000003" blue="0.34903037549999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="correctPopup" translatesAutoresizingMaskIntoConstraints="NO" id="nx8-gp-ubS">
                                 <rect key="frame" x="112" y="202" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -123,26 +126,12 @@
                                 <rect key="frame" x="112" y="202" width="150" height="150"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QUY-yQ-Jgz">
-                                <rect key="frame" x="25" y="5" width="325" height="14"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="14" id="Vc0-e1-yEI"/>
-                                </constraints>
-                                <color key="progressTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="trackTintColor" red="0.16866556150000001" green="0.21411641219999999" blue="0.32921557740000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </progressView>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.32156862749999998" blue="0.60784313729999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="QUY-yQ-Jgz" firstAttribute="leading" secondItem="hhI-vT-a9d" secondAttribute="leadingMargin" constant="9" id="0iC-ab-xel"/>
                             <constraint firstAttribute="trailingMargin" secondItem="QUY-yQ-Jgz" secondAttribute="trailing" constant="9" id="Btf-pY-Y6E"/>
-                            <constraint firstItem="fWz-Bf-VgB" firstAttribute="trailing" secondItem="h3A-iN-kCS" secondAttribute="trailing" constant="20" id="GRZ-Jj-Yvj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="uzt-ov-ojp" secondAttribute="trailing" constant="17" id="IjG-67-Clh"/>
-                            <constraint firstItem="uzt-ov-ojp" firstAttribute="top" secondItem="hhI-vT-a9d" secondAttribute="topMargin" constant="42" id="OHV-Mf-gaf"/>
                             <constraint firstItem="QUY-yQ-Jgz" firstAttribute="top" secondItem="fWz-Bf-VgB" secondAttribute="top" constant="8" id="XqR-vE-8uE"/>
-                            <constraint firstItem="h3A-iN-kCS" firstAttribute="top" secondItem="fWz-Bf-VgB" secondAttribute="top" constant="27" id="gVt-pS-8n4"/>
-                            <constraint firstItem="h3A-iN-kCS" firstAttribute="leading" secondItem="fWz-Bf-VgB" secondAttribute="leading" constant="20" id="kAd-cZ-7mc"/>
-                            <constraint firstItem="uzt-ov-ojp" firstAttribute="leading" secondItem="hhI-vT-a9d" secondAttribute="leadingMargin" constant="17" id="kMQ-g7-oMi"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fWz-Bf-VgB"/>
                     </view>
@@ -150,6 +139,7 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <connections>
+                        <outlet property="chapterThumb" destination="T21-Tf-g4z" id="ccP-ka-ldU"/>
                         <outlet property="correctPopup" destination="nx8-gp-ubS" id="067-LE-Jy9"/>
                         <outlet property="incorrectPopup" destination="KQl-ZS-d1N" id="kMd-0S-o87"/>
                         <outlet property="progressView" destination="QUY-yQ-Jgz" id="lbX-fN-n0C"/>
@@ -164,7 +154,7 @@
         <!--Results-->
         <scene sceneID="8ty-q3-PGj">
             <objects>
-                <viewController title="Results" id="Kvb-rR-JKy" customClass="Results" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Results" id="Kvb-rR-JKy" customClass="Results2" customModule="FBLA101" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0gT-lu-zYC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -180,7 +170,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Q9u-Tc-sv6"/>
                                 </constraints>
-                                <state key="normal" image="shareButton-1"/>
+                                <state key="normal" image="shareButton2"/>
                                 <connections>
                                     <action selector="shareButtonPressed:" destination="Kvb-rR-JKy" eventType="touchUpInside" id="DRX-OM-OXK"/>
                                 </connections>
@@ -248,8 +238,7 @@
         <image name="answerBtn4" width="1372" height="232"/>
         <image name="correctPopup" width="632" height="632"/>
         <image name="incorrectPopup" width="632" height="632"/>
-        <image name="questionBG" width="1372" height="1032"/>
         <image name="resultsBG" width="1372" height="1632"/>
-        <image name="shareButton-1" width="752" height="232"/>
+        <image name="shareButton2" width="752" height="232"/>
     </resources>
 </document>

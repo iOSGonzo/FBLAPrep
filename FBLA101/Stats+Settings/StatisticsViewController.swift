@@ -40,7 +40,7 @@ class StatisticsViewController: UIViewController{
         
         totalTestTakenLabel.text = String(globalTestsTaken)
         flashcardSetsStudiedLabel.text = String(globalFlashcardsStudied)
-        videosWatchedLabel.text = String(globalVideosWatched)
+        videosWatchedLabel.text = String(globalWebsitesVisited)
         
         self.currentProgress.completedUnitCount = globalTestPercentage
         let progressFloat = Float(self.currentProgress.fractionCompleted)
@@ -56,7 +56,7 @@ class StatisticsViewController: UIViewController{
         
         globalTestsTaken = 0
         globalFlashcardsStudied = 0
-        globalVideosWatched = 0
+        globalWebsitesVisited = 0
 
         globalTotalPointsPossible = 0.001
         globalTotalPoints = 0.001
@@ -66,7 +66,7 @@ class StatisticsViewController: UIViewController{
         
         totalTestTakenLabel.text = String(globalTestsTaken)
         flashcardSetsStudiedLabel.text = String(globalFlashcardsStudied)
-        videosWatchedLabel.text = String(globalVideosWatched)
+        videosWatchedLabel.text = String(globalWebsitesVisited)
         
         self.currentProgress.completedUnitCount = globalTestPercentage
         let progressFloat = Float(self.currentProgress.fractionCompleted)

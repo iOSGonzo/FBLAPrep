@@ -14,10 +14,11 @@ class TestNationalChapter: UIViewController{
     
     
     //array containing questions that will be displayed on the view
-    let questions = ["Which one of the following exposures associated with the spooling of sensitive reports for offline printing could be considered the most serious?","What is the Biba security model concerned with?","The Information Technology Security Evaluation Criteria (ITSEC) was written to address which one of the following that the Orange Book did not address?","What is a locking device that prevents unauthorized unplugging of cables from computer devices called?","Which one of the following is not a method to protect objects and the data within the objects?"]
+    let questions = ["Michael Zhao","Eu Ro Wang","Keerti Soundappan","Galadriel Coury","Garett Koch","Madelyn Remington","Eli Amyx","Ty Rickard","Trentyn Tennant"]
+    let questions1 = ["FBLANationalParliamentarian","FBLANationalPresident","FBLANationalSecretary","FBLANationalTreasurer","FBLAEasternRegionVP","FBLAMountainPlainsRegionVP","FBLANorthCentralRegionVP","FBLASouthernRegionVP","FBLAWesternRegionVP"]
     
     //array containing options that will be displayed on the view (a,b,c,d)
-    let answers = [["other unauthorized copies of reports could be printed","sensitive data may be read by operators","data cannot be altered without authorization","output would be lost in case of system failure"],["integrity","confidentiality","reliability","availability"],["integrity and availability","integrity and confidentiality","confidentiality and availability","accessibility and confidentiality"],["cable trap","door delay","slot locks","preset locks"],["data mining","layering","abstraction","data hiding"]]
+    let answers = [["FBLA National Parliamentarian","FBLA National President","FBLA National Secretary","FBLA National Treasurer"],["FBLA National President","FBLA National Parliamentarian","FBLA National Treasurer","FBLA National Secretary"],["FBLA National Secretary","FBLA National President","FBLA National Parliamentarian","FBLA National Treasurer"],["FBLA National Treasurer","FBLA National Parliamentarian","FBLA National President","FBLA National Secretary"],["FBLA Eastern Region VP","FBLA North Central Region VP","FBLA Western Region VP","FBLA Southern Region VP"],["FBLA Mountain Plains Region VP","FBLA Eastern Region VP","FBLA North Central Region VP","FBLA Southern Region VP"],["FBLA North Central Region VP","FBLA Eastern Region VP","FBLA Southern Region VP","FBLA Western Region VP"],["FBLA Southern Region VP","FBLA North Central Region VP","FBLA Eastern Region VP","FBLA Western Region VP"],["FBLA Western Region VP","FBLA Eastern Regoin VP","FBLA Southern Region VP","FBLA North Central Region VP"]]
     
     
     //variable that keeps track of current question
@@ -32,10 +33,11 @@ class TestNationalChapter: UIViewController{
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var correctPopup: UIImageView!
     @IBOutlet weak var incorrectPopup: UIImageView!
+    @IBOutlet weak var chapterThumb: UIButton!
     
     
     //  currentProgress stores the amount of parts the progress bar is split into, as well as the current progress the bar is at
-    let currentProgress = Progress(totalUnitCount: 5)
+    let currentProgress = Progress(totalUnitCount: 9)
     
     
     // Executed whenever an answer is clicked on. In short is checks if the location selected is correct or not, if so it displays a popup animation stating if the answer was correct or wrong, it also progresses the progress bar.
@@ -104,7 +106,7 @@ class TestNationalChapter: UIViewController{
             print("DONE!")
             performSegue(withIdentifier: "finishedTest", sender: nil)
             globalTestsTaken += 1
-            globalTotalPointsPossible += 5
+            globalTotalPointsPossible += 9
             globalTotalPoints += Double(currentScore)
         }
     }
@@ -134,11 +136,14 @@ class TestNationalChapter: UIViewController{
         self.currentProgress.completedUnitCount = 0
         let progressFloat = Float(self.currentProgress.fractionCompleted)
         self.progressView.setProgress(progressFloat, animated: true)
+        maxPossibleScore = 9
     }
     
     func newQuestion(){
         questionLabel.text = questions[currentQuestion]
-        
+
+        let img = UIImage(named: questions1[currentQuestion])
+        chapterThumb.setImage(img, for: .normal)
         
         correctAnswerPlacement = arc4random_uniform(3)+1
         

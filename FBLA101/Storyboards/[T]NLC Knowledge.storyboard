@@ -180,7 +180,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="TCK-Yx-6EL"/>
                                 </constraints>
-                                <state key="normal" image="shareButton-1"/>
+                                <state key="normal" image="shareButton2"/>
                                 <connections>
                                     <action selector="shareButtonPressed:" destination="DRd-od-6pZ" eventType="touchUpInside" id="BCu-gI-2Pq"/>
                                 </connections>
@@ -250,6 +250,6 @@
         <image name="incorrectPopup" width="632" height="632"/>
         <image name="questionBG" width="1372" height="1032"/>
         <image name="resultsBG" width="1372" height="1632"/>
-        <image name="shareButton-1" width="752" height="232"/>
+        <image name="shareButton2" width="752" height="232"/>
     </resources>
 </document>
