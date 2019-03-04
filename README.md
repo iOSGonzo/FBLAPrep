@@ -23,4 +23,4 @@ Features
  - Settings page containing username, email, about, and support (bug reporting), as well as sign in/log out
  
  - Artwork (Logo, appicon, custom UI)
- - Widget that displays soft skills, business etiiquette, and self esteem tips on demand
+ - Widget extension that displays soft skills, business etiiquette, and self esteem tips on demand
