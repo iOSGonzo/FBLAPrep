@@ -146,7 +146,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rh0-Dg-SCk"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Fun Facts" largeTitleDisplayMode="always" id="E8E-ae-ozE"/>
+                    <navigationItem key="navigationItem" title="Business Skills" largeTitleDisplayMode="always" id="E8E-ae-ozE"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <connections>
