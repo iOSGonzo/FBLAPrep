@@ -1098,18 +1098,18 @@ Built with </string>
         <image name="nationchapterBtn-3" width="1372" height="352"/>
         <image name="nlcKnowledgeBtn-3" width="1372" height="352"/>
         <image name="overallTestingPercentageBG3" width="1376" height="572"/>
-        <image name="passwordTextField" width="670" height="105"/>
+        <image name="passwordTextField" width="1072" height="168"/>
         <image name="reportBugIcon" width="150" height="140"/>
         <image name="resetButton2" width="752" height="232"/>
         <image name="settings" width="30" height="30"/>
         <image name="stats" width="30" height="30"/>
         <image name="test" width="30" height="30"/>
         <image name="totalTestsTakenBG" width="1376" height="392"/>
-        <image name="usernameTextField" width="670" height="105"/>
+        <image name="usernameTextField" width="1072" height="168"/>
         <image name="websitesVisited" width="1376" height="392"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ZA6-OT-8vI"/>
+        <segue reference="0Vr-d4-Bt4"/>
         <segue reference="ERj-za-0OG"/>
     </inferredMetricsTieBreakers>
 </document>
