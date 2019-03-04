@@ -63,3 +63,9 @@ After downloading the .zip file you will most likely need to change the signing 
  - Swift - A fairly new programming language used within iOS applications
  - Sketch - A professional graphic design program used to make most of the UI
  - Firebase - A database used for FBLA's authentication
+ 
+ 
+  Instructions
+-------------
+
+1. Upon opening app, you get directed to a login screen, you can either log in with an existing account or create a new account or even continue as a guest if you'd like.
