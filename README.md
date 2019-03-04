@@ -37,10 +37,14 @@ Features
 -------------
  **In order to install this application a Mac running Xcode with CocoaPods will be needed.**
  1. Make sure CocoaPods is installed on the development computer. Install Guide can be found here: https://guides.cocoapods.org/using/getting-started.html
- 2. Open the archive and click on `FBLA101.xcworkspace` make sure its the white-colored blueprint icon!
- 3.  Once the project is loaded, select a device from the drop-down near the top-left corner (This can be a simulator (only iPhone 6,7,8!) or a real device)
- 4. Once a device is selected, press the icon that is very similar to a play button to run the project.
- 5. If running on an actual device, make sure to accept any prompts so the app builds correctly. You also may need to go to Settings -> General -> Profile & Device Management -> Look under 'Developer Apps' -> Accept FBLA101<br>
+ 2. Close your Xcode project before you carry out the following steps.
+ 3. Next type `cd` and drag and drop the project directory into the terminal window.
+ 4. Press return
+ 5. Next type `pod install`
+ 6. Once installed, open the archive and click on `FBLA101.xcworkspace` (make sure its the one with the white blue print!)
+ 7.  Once the project is loaded, select a device from the drop-down near the top-left corner (This can be a simulator or a real device)
+ 8. Once a device is selected, press the icon that is very similar to a play button to run the project.
+ 9. If running on an actual device, make sure to accept any prompts so the app builds correctly. You also may need to go to Settings -> General -> Profile & Device Management -> Look under 'Developer Apps' -> Accept FBLA101<br>
 **Note:** If running on a device, make sure it is unlocked before it is plugged in.
 
 
