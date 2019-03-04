@@ -1,11 +1,11 @@
 FBLA101
 ===================
 
-FBLA101 is an iOS app for FBLA Mobile Application Development, will be displayed for judges at the FBLA SBLC.
+FBLA101 is an iOS app for FBLA Mobile Application Development, will be displayed for judges at FBLA SBLC.
 
 Introduction
 -------------
-FBLA 101 is a mobile app made to help users get educated about FBLA. The app is designed to test a member’s knowledge of FBLA, while giving the member resources to study for those tests.
+FBLA101 is a mobile app made to help users get educated about FBLA. The app is designed to test a member’s knowledge of FBLA, while giving the member resources to study for those tests.
 
 Features
 -------------
