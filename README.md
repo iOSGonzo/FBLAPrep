@@ -57,4 +57,5 @@ After downloading the .zip file you will most likely need to change the signing 
 
  - Xcode - IDE used to develop iOS applications
  - Swift - A fairly new programming language used within iOS applications
- - Firebase: A highly scabable realtime database used for FundUP's backend
+ - Sketch - A professional graphic design program used to make most of the UI
+ - Firebase - A database used for FBLA's authentication
