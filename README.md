@@ -83,3 +83,4 @@ After downloading the .zip file you will most likely need to change the signing 
 12. Here you could see your username/email linked to the account, our privacy policy, license, and about app.
 13. Here, you can also report a bug! Just click the report bug button and you will be directed to our support email (NOTE: This feature won't work if running on simulator)
 14. Finally, you can also log in/log out through this screen.
+15. Wait, theres one more feature! FBLA101 has a widget extension that displays soft skills, business etiiquette, and self esteem tips on demand! If you exit the app and follow these steps you should be able to activate it! https://www.imore.com/how-use-lock-screen-widgets-iphone-and-ipad
