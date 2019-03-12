@@ -1,0 +1,6 @@
+framework module Pods_FBLA101 {
+  umbrella header "Pods-FBLA101-umbrella.h"
+
+  export *
+  module * { export * }
+}

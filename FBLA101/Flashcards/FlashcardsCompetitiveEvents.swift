@@ -29,7 +29,7 @@ class FlashcardsCompetitiveEvents: UIViewController{
         progressView.layer.sublayers![1].cornerRadius = 7
         progressView.subviews[1].clipsToBounds = true
         
-        
+    
         
 //      set flashcard face to currentFlashcard (first card) on viewDidLoad()
         let img = UIImage(named: frontImages[currentFlashcard])
